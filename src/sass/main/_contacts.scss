@@ -10,7 +10,7 @@ top: 4510px; /*вернуть
 
 /* Fon lemon */
 
-background: #FFFDEE;
+background: var(--main-bkg-color);
 box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
 }
     .contact_mimiho {
@@ -40,7 +40,7 @@ box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #7A7A7A;
+    color: var(--hotel-main-color);
 }
 
 
@@ -59,7 +59,7 @@ box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #C79002;
+    color: var(--last-accent-color);
 }
 
 .box_res {
@@ -69,8 +69,8 @@ box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     height: 40px;
     left: 85px;
     top: 237px;
-    background: #FFFFFF;
-    border: 0.5px solid #F3C653;
+    background: var(--light-color);
+    border: 0.5px solid var(--accent-color);
     border-radius: 2px;
 }
 
@@ -79,7 +79,7 @@ box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     margin: 9px 118px 11px 8px;
     max-width: 20px;
     max-height: 20px;
-    fill: #C79002;
+    fill: var(--last-accent-color);
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -99,7 +99,7 @@ box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
-    color: #828282;
+    color: var(--grey-color);
 }
 
 // block hotel
@@ -115,7 +115,7 @@ box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #C79002;
+    color: var(--last-accent-color);
 }
 
 .box_hotel {
@@ -125,8 +125,8 @@ box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     height: 40px;
     left: 85px;
     top: 333px;
-    background: #FFFFFF;
-    border: 0.5px solid #F3C653;
+    background: var(--light-color);
+    border: 0.5px solid var(--accent-color);
     border-radius: 2px;
 }
 
@@ -142,7 +142,7 @@ box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.02em;
-    color: #828282;
+    color: var(--grey-color);
 }
 
 .number_hotel_2 {
@@ -157,7 +157,7 @@ box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.02em;
-    color: #828282;
+    color: var(--grey-color);
 }
 
 // block adress
@@ -168,8 +168,8 @@ box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     height: 56px;
     left: 85px;
     top: 421px;
-    background: #FFFFFF;
-    border: 0.5px solid #F3C653;
+    background: var(--light-color);
+    border: 0.5px solid var(--accent-color);
     border-radius: 2px;
 }
 
@@ -178,7 +178,7 @@ box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     margin: 11px 257px 17px 9px;
     max-width: 30px;
     max-height: 30px;
-    fill: #C79002;
+    fill: var(--last-accent-color);
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -196,6 +196,6 @@ box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.01em;
-    color: #828282;
+    color: var(--grey-color);
 }
 
