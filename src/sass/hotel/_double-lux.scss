@@ -1,4 +1,4 @@
-  ul {
+ul {
     list-style: none;
   }
 
@@ -8,19 +8,19 @@
     padding-bottom: 0;
     background: var(--main-bkg-color);
   }
-  
+
   .about {
     padding-top: 32px;
-  
+
     font-weight: 400;
     font-size: 20px;
     line-height: 1.15;
     color: var(--light-grey-color);  
   }
-  
+
   .logo-link {
     margin-top: 10px;
- 
+
     font-family: 'Film P3';
     font-weight: 700;
     font-size: 40px;
@@ -29,7 +29,6 @@
     color: var(--dark-color);
     text-decoration: none;
   }
-  
   .section-title {
     margin-top: 32px;
     font-family: 'Times New Roman';
@@ -39,7 +38,6 @@
     letter-spacing: 0.05em;
     color: var(--black-color);
   }
-  
   .number-description {
     width: 258px;
     margin-top: 12px;
@@ -50,12 +48,10 @@
     letter-spacing: 0.02em;
     color: var(--hotel-main-color);
   }
-  
   .apartment {
     width: 244px;
     margin: 32px 15px 32px 140px;
   }
-  
   .br-blok {
     display: flex;
     margin-bottom: 20px;
