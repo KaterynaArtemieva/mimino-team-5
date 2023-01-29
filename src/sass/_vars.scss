@@ -13,9 +13,12 @@
 
   --main-bkg-color: #FFFDEE;
   --last-bkg-color: #F0ECD6;
-  --dark-bkg-collor: #0E0C07;
+  --dark-bkg-color: #0E0C07;
+
+  --btn-bkg-color: rgba(0,0,0,0.4);
 
   --gradient-bkg: rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65);
 
-  --timing: 250ms ease;
+  --timing-duration: 250ms;
+  --timing-function: ease;
 }
