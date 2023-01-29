@@ -4,7 +4,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: main-text-color;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+  background-color: var(--main-bkg-color);
 }
 
 h1,
@@ -15,11 +17,12 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
 }
 /* ul */
 .list {
   list-style: none;
-  padding-left: 0;
+  padding: 0;
   margin: 0;
 }
 /* a */
@@ -36,4 +39,25 @@ img {
 }
 address {
   font-style: normal;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 414px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1140px;
+  }
 }
