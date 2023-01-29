@@ -1,0 +1,201 @@
+.h1 {
+    display: none;
+}
+.contact {
+position: absolute;    
+width: 1280px;
+height: 550px;
+left: 0px;
+// top: 4510px; /*вернуть
+
+/* Fon lemon */
+
+background: #FFFDEE;
+box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+}
+    .contact_mimiho {
+    position: absolute;
+    width: 202px;
+    height: 69px;
+    left: 85px;
+    top: 56px;
+    font-family: 'Film P3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 69px;
+    letter-spacing: 0.3em;
+    color: #494848;
+}
+
+.text_kompleks {
+    position: absolute;
+    width: 368px;
+    height: 24px;
+    left: 85px;
+    top: 141px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #7A7A7A;
+}
+
+
+/*Contact*/
+/*block restoran*/
+
+.text_restoran {
+    position: absolute;
+    width: 102px;
+    height: 24px;
+    left: 85px;
+    top: 205px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #C79002;
+}
+
+.box_res {
+    box-sizing: border-box;
+    position: absolute;
+    width: 144px;
+    height: 40px;
+    left: 85px;
+    top: 237px;
+    background: #FFFFFF;
+    border: 0.5px solid #F3C653;
+    border-radius: 2px;
+}
+
+.img_tel {
+    display: flex;
+    margin: 9px 118px 11px 8px;
+    max-width: 20px;
+    max-height: 20px;
+    fill: #C79002;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.number_res {
+    position: absolute;
+    width: 97px;
+    height: 17px;
+    left: 35px;
+    top: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #828282;
+}
+
+// block hotel
+.text_hotel {
+    position: absolute;
+    width: 70px;
+    height: 24px;
+    left: 85px;
+    top: 301px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #C79002;
+}
+
+.box_hotel {
+    box-sizing: border-box;
+    position: absolute;
+    width: 264px;
+    height: 40px;
+    left: 85px;
+    top: 333px;
+    background: #FFFFFF;
+    border: 0.5px solid #F3C653;
+    border-radius: 2px;
+}
+
+.number_hotel_1 {
+    position: absolute;
+    width: 100px;
+    height: 17px;
+    left: 40px;
+    top: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #828282;
+}
+
+.number_hotel_2 {
+    position: absolute;
+    width: 100px;
+    height: 17px;
+    left: 156px;
+    top: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #828282;
+}
+
+// block adress
+.box_adres {
+    box-sizing: border-box;
+    position: absolute;
+    width: 285px;
+    height: 56px;
+    left: 85px;
+    top: 421px;
+    background: #FFFFFF;
+    border: 0.5px solid #F3C653;
+    border-radius: 2px;
+}
+
+.img_loc {
+    display: block;
+    margin: 11px 257px 17px 9px;
+    max-width: 30px;
+    max-height: 30px;
+    fill: #C79002;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text_adres {
+    position: absolute;
+    width: 233px;
+    height: 40px;
+    left: 44px;
+    top: 9px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #828282;
+}
+
