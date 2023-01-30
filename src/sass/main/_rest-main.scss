@@ -1,0 +1,90 @@
+.rest-main {
+  position: relative;
+  background-color: var(--main-bkg-color);
+  padding: 16px 15px 20px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+.description-pre {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(----light-grey-color);
+}
+.description-title {
+  font-family: 'Film P3';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: 0.3em;
+  color: var(--dark-color);
+}
+.description-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: var(--hotel-main-color);
+}
+
+.restaurant {
+  width: 244px;
+  height: 322px;
+  left: 155px;
+  top: 210px;
+  width: 244px;
+  height: 322px;
+  left: 155px;
+  top: 210px;
+  margin-left: auto;
+  margin-bottom: 32px;
+}
+
+.rest-interier {
+  width: 200px;
+  height: 278px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  margin-bottom: 32px;
+  margin-right: 10px;
+}
+
+.img-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.accent {
+  display: block;
+  width: 163px;
+  height: 120px;
+  color: var(--last-accent-color);
+}
+
+.img-items {
+  display: flex;
+  justify-content: center;
+}
+.img-item-bar {
+  width: 245px;
+  height: 245px;
+  margin-right: 25px;
+  margin-left: auto;
+
+  background: url(pexels-helena-lopes-696218.jpg);
+}
+
+.img-item-lanch {
+  position: absolute;
+  right: 0;
+}
