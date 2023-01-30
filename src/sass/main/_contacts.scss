@@ -1,201 +1,395 @@
-.h1 {
-    display: none;
+.h2 {
+  display: none;
 }
+
 .contact {
-position: absolute;    
-width: 1280px;
-height: 550px;
-left: 0px;
-top: 4510px; /*вернуть
-
-/* Fon lemon */
-
-background: var(--main-bkg-color);
-box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+  position: relative;
+  max-width: 414px;
+  min-height: 599px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 4592px;
+  background: var(--main-bkg-color);
+  box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
 }
-    .contact_mimiho {
-    position: absolute;
+
+@media screen and (min-width: 1024px) {
+  .contact {
+    max-width: 1024px;
+    min-height: 521px;
+    top: 4436px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact {
+    max-width: 1280px;
+    min-height: 550px;
+  }
+}
+
+.contact_mimiho {
+  position: absolute;
+  width: 127px;
+  height: 43px;
+  left: 15px;
+  top: 36px;
+  font-family: 'Film P3';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 43px;
+  letter-spacing: 0.3em;
+  color: var(--dark-color);
+}
+
+@media screen and (min-width: 1024px) {
+  .contact_mimiho {
+    width: 202px;
+    height: 69px;
+    left: 47px;
+    top: 56px;
+    font-size: 64px;
+    line-height: 69px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact_mimiho {
     width: 202px;
     height: 69px;
     left: 85px;
     top: 56px;
-    font-family: 'Film P3';
-    font-style: normal;
-    font-weight: 700;
     font-size: 64px;
     line-height: 69px;
-    letter-spacing: 0.3em;
-    color: #494848;
+  }
 }
 
 .text_kompleks {
-    position: absolute;
+  position: absolute;
+  width: 294px;
+  height: 20px;
+  left: 15px;
+  top: 91px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: var(--hotel-main-color);
+}
+
+@media screen and (min-width: 1024px) {
+  .text_kompleks {
+    width: 294px;
+    height: 20px;
+    left: 47px;
+    top: 133px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .text_kompleks {
     width: 368px;
     height: 24px;
     left: 85px;
     top: 141px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--hotel-main-color);
+  }
 }
-
 
 /*Contact*/
 /*block restoran*/
 
 .text_restoran {
-    position: absolute;
+  position: absolute;
+  width: 102px;
+  height: 24px;
+  left: 15px;
+  top: 135px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--last-accent-color);
+}
+
+@media screen and (min-width: 1024px) {
+  .text_restoran {
+    width: 102px;
+    height: 24px;
+    left: 47px;
+    top: 205px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .text_restoran {
     width: 102px;
     height: 24px;
     left: 85px;
     top: 205px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--last-accent-color);
+  }
 }
 
 .box_res {
-    box-sizing: border-box;
-    position: absolute;
+  box-sizing: border-box;
+  position: absolute;
+  width: 144px;
+  height: 40px;
+  left: 139px;
+  top: 127px;
+  background: var(--light-color);
+  border: 0.5px solid var(--accent-color);
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 1024px) {
+  .box_res {
+    width: 144px;
+    height: 40px;
+    left: 47px;
+    top: 237px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .box_res {
     width: 144px;
     height: 40px;
     left: 85px;
     top: 237px;
-    background: var(--light-color);
-    border: 0.5px solid var(--accent-color);
-    border-radius: 2px;
+  }
 }
 
 .img_tel {
-    display: flex;
-    margin: 9px 118px 11px 8px;
-    max-width: 20px;
-    max-height: 20px;
-    fill: var(--last-accent-color);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+  display: flex;
+  margin: 9px 118px 11px 8px;
+  max-width: 20px;
+  max-height: 20px;
+  fill: var(--last-accent-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .number_res {
-    position: absolute;
-    width: 97px;
-    height: 17px;
-    left: 35px;
-    top: 12px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.02em;
-    color: var(--grey-color);
+  position: absolute;
+  width: 97px;
+  height: 17px;
+  left: 35px;
+  top: 12px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: var(--grey-color);
+  text-decoration: none;
 }
 
 // block hotel
 .text_hotel {
-    position: absolute;
+  position: absolute;
+  width: 70px;
+  height: 24px;
+  left: 15px;
+  top: 191px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--last-accent-color);
+}
+
+@media screen and (min-width: 1024px) {
+  .text_hotel {
+    width: 70px;
+    height: 24px;
+    left: 47px;
+    top: 301px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .text_hotel {
     width: 70px;
     height: 24px;
     left: 85px;
     top: 301px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--last-accent-color);
+  }
 }
 
 .box_hotel {
-    box-sizing: border-box;
-    position: absolute;
+  box-sizing: border-box;
+  position: absolute;
+  width: 260px;
+  height: 40px;
+  left: 139px;
+  top: 183px;
+  background: var(--light-color);
+  border: 0.5px solid var(--accent-color);
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 1024px) {
+  .box_hotel {
+    width: 264px;
+    height: 40px;
+    left: 47px;
+    top: 333px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .box_hotel {
     width: 264px;
     height: 40px;
     left: 85px;
     top: 333px;
-    background: var(--light-color);
-    border: 0.5px solid var(--accent-color);
-    border-radius: 2px;
+  }
 }
 
 .number_hotel_1 {
-    position: absolute;
-    width: 100px;
-    height: 17px;
-    left: 40px;
-    top: 12px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 0.02em;
-    color: var(--grey-color);
+  position: absolute;
+  width: 100px;
+  height: 17px;
+  left: 40px;
+  top: 12px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: var(--grey-color);
+  text-decoration: none;
 }
 
 .number_hotel_2 {
-    position: absolute;
-    width: 100px;
-    height: 17px;
-    left: 156px;
-    top: 12px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 0.02em;
-    color: var(--grey-color);
+  position: absolute;
+  width: 100px;
+  height: 17px;
+  left: 156px;
+  top: 12px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: var(--grey-color);
+  text-decoration: none;
 }
 
 // block adress
 .box_adres {
-    box-sizing: border-box;
-    position: absolute;
+  box-sizing: border-box;
+  position: absolute;
+  width: 260px;
+  height: 76px;
+  left: 139px;
+  top: 239px;
+  background: var(--light-color);
+  border: 0.5px solid var(--accent-color);
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 1024px) {
+  .box_adres {
+    width: 285px;
+    height: 56px;
+    left: 47px;
+    top: 421px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .box_adres {
     width: 285px;
     height: 56px;
     left: 85px;
     top: 421px;
-    background: var(--light-color);
-    border: 0.5px solid var(--accent-color);
-    border-radius: 2px;
+  }
 }
 
 .img_loc {
-    display: block;
-    margin: 11px 257px 17px 9px;
-    max-width: 30px;
-    max-height: 30px;
-    fill: var(--last-accent-color);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+  display: block;
+  margin: 11px 257px 17px 9px;
+  max-width: 30px;
+  max-height: 30px;
+  fill: var(--last-accent-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .text_adres {
-    position: absolute;
-    width: 233px;
-    height: 40px;
-    left: 44px;
-    top: 9px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.01em;
-    color: var(--grey-color);
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 44px;
+  top: 9px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: var(--grey-color);
+  text-decoration: none;
 }
 
+@media screen and (min-width: 1024px) {
+  .text_adres {
+    width: 233px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .text_adres {
+    width: 233px;
+  }
+}
+
+.maps_contact {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 384px;
+  height: 220px;
+  left: 15px;
+  top: 347px;
+
+  // border: 1px solid #BABABA;
+  /* shadow_big */
+
+  box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 1024px) {
+  .maps_contact {
+    width: 535px;
+    height: 412px;
+    left: 442px;
+    top: 69px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .maps_contact {
+    width: 634px;
+    height: 412px;
+    left: 561px;
+    top: 64px;
+  }
+}
