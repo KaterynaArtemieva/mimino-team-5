@@ -1,6 +1,7 @@
 <section class="section rest-main">
   <div class="container">
     <h3 class="visually-hidden">Restaurant</h3>
+   <div class="description-wrap"> 
     <div class="description">
       <p class="description-pre">Amet minim mollit non</p>
       <p class="=description-title">MIMIHO</p>
@@ -10,11 +11,11 @@
         veniam consequat sunt nostrud amet.
       </p>
     </div>
-    <picture>
+          <div class="restaurant-wrapper">
+             <picture>
       <sourse
-        srcset="./images/tablet/main/interier.jpg 1x,
-        ./images/tablet/main/interier.jpg 2x
-      "
+        srcset="./images/desktop/main/interier.jpg 1x,
+        ./images/desktop/main/interier-2x.jpg 2x"
         media="(min-width: 1280px)"
         type="image/jpg"
       >
@@ -37,6 +38,8 @@
         alt="Restaurant"
         class="restaurant"
     /></picture>
+          </div>
+   </div>
 
     <div class="img-wrap">
       <picture>
@@ -66,7 +69,8 @@
           class="rest-interier"
           src="./images/mobile/main/restaurant-interier.jpg"
           alt="Hall"
-      /></picture>
+      />
+    </picture>
 
       <p class="description-text accent">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -74,9 +78,9 @@
         veniam consequat sunt nostrud amet.
       </p>
     </div>
-
-    <div class="img-items">
-      <picture>
+   <div class="img-items-wrapper">
+     <ul class="img-items list">
+      <li class="link img-item">  <picture>
         <sourse
           srcset="./images/desktop/main/bar.jpg 1x,
         ./images/desktop/main/bar-2x.jpg 2x
@@ -99,9 +103,8 @@
           type="image/jpg"
       >
         <img class="img-item-bar" src="./images/mobile/main/bar.jpg" alt="Bar"
-      /></picture>
-
-      <picture>
+      /></picture></li>
+      <li><picture>
         <sourse
           srcset="./images/desktop/main/lanch.jpg 1x,
         ./images/desktop/main/lanch-2x.jpg 2x
@@ -110,15 +113,14 @@
           type="image/jpg"
         >
 
-        <sourse
-          srcset="./images/tablet/main/lanch.jpg 1x,
-      ./images/tablet/main/lanch-2x.jpg 2x"
-          media="(min-width: 1024px)"
-          type="image/jpg"
-        >
+        <source
+        srcset="
+        ./images/tablet/main/lanch-2x.jpg 2x"
+        media="(min-width: 1024px)"
+        type="image/jpg">
         
         <sourse
-          srcset="./images/mobile/main/lanch.jpg 1x,
+         srcset="./images/mobile/main/lanch.jpg 1x,
       ./images/mobile/main/lanch-2x.jpg 2x"
           media="(min-width: 414px)"
           type="image/jpg"
@@ -128,8 +130,16 @@
           class="img-item-lanch"
           src="./images/mobile/main/lanch.jpg"
           alt="Lanch"
-      /></picture>
-    </div>
+      /></picture> </li>
+    </ul>
+   </div>
+
+    <!-- <div class="img-items">
+    
+
+      
+    </div> -->
+
     <ul class="list arrow-list">
       <li>
         <svg class="icon-arrow" width="32" height="32">
