@@ -29,9 +29,7 @@
   margin-right: auto;
   background-image: linear-gradient(
       to right,
-      var(--gradient-bkg),
-      var(--gradient-bkg)
-    ),
+      var(--gradient-bkg)),
     url(../images/mobile/main/bgc-main@1x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,7 +42,6 @@
   .hero-overlay {
     background-image: linear-gradient(
         to right,
-        var(--gradient-bkg),
         var(--gradient-bkg)
       ),
       url(../images/mobile/main/bgc-main@1x.jpg);
@@ -57,7 +54,6 @@
     min-height: 720px;
     background-image: linear-gradient(
         to right,
-        var(--gradient-bkg),
         var(--gradient-bkg)
       ),
       url(../images/tablet/main/bgc-main@1x.jpg);
@@ -70,7 +66,6 @@
   .hero-overlay {
     background-image: linear-gradient(
         to right,
-        var(--gradient-bkg),
         var(--gradient-bkg)
       ),
       url(../images/tablet/main/bgc-main@2x.jpg);
@@ -84,7 +79,6 @@
 
     background-image: linear-gradient(
         to right,
-        var(--gradient-bkg),
         var(--gradient-bkg)
       ),
       url(../images/desktop/main/bgc-main@1x.jpg);
@@ -97,7 +91,6 @@
   .hero-overlay {
     background-image: linear-gradient(
         to right,
-        var(--gradient-bkg),
         var(--gradient-bkg)
       ),
       url(../images/desktop/main/bgc-main@2x.jpg);

@@ -1,0 +1,88 @@
+
+.hotel-main {
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+
+.hotel-main__uppertitle {
+    display: flex;
+    justify-content: end;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+    color: var(--light-grey-color);
+    margin-bottom: 6px;
+}
+
+.hotel-main__title {
+    display: flex;
+    justify-content: end;
+    font-family: 'Film P3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.07;
+    letter-spacing: 0.3em;
+    color: var(--dark-color);
+    margin-bottom: 16px;
+}
+
+.hotel-main__undertitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--hotel-main-color);
+    width: 242px;
+    height: 76px;
+    margin-left: auto;
+    margin-bottom: 28px;
+}
+
+.apartament-img {
+    margin-bottom: 32px;
+}
+
+.apartament-img_boxshadow {
+    background: #DADADA;
+    box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+.hotel-hall-flex {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    margin-bottom: 32px;
+}
+
+.hotel-main__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--last-accent-color)
+}
+
+.slider-box {
+    position: relative;
+}
+
+.hotel-slider-flex {
+    // position: absolute;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.icon-arrow {
+    display: flex;
+    gap: 32px;
+}
+
