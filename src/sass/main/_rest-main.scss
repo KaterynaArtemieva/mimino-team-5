@@ -74,7 +74,9 @@
 .img-items {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
+
 .img-item-bar {
   width: 245px;
   height: 245px;
@@ -83,6 +85,20 @@
 }
 
 .img-item-lanch {
+  width: 60px;
+  height: 245px;
   position: absolute;
   right: 0;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.arrow-list {
+  position: absolute;
+  display: flex;
+
+  gap: 32px;
+}
+.icon-arrow {
+  fill: var(--black-color);
 }
