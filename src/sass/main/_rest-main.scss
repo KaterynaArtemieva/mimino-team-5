@@ -6,7 +6,9 @@
   @media screen and (max-width: 959px) {
     overflow-x: hidden;
   }
-  // overflow: hidden;
+  @media screen and (min-width: 1024px) {
+    padding-bottom: 40px;
+  }
 }
 
 .description-wrap {
@@ -36,6 +38,7 @@
   line-height: 1.15;
   color: var(----light-grey-color);
 }
+
 .description-title {
   font-family: 'Film P3';
   font-style: normal;
@@ -44,6 +47,11 @@
   line-height: 1.1;
   letter-spacing: 0.3em;
   color: var(--dark-color);
+  @media screen and (min-width: 1024px) {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.16;
+  }
 }
 .description-text {
   width: 258px;
@@ -61,13 +69,19 @@
     width: 439px;
     height: 80px;
   }
+
+  @media screen and (min-width: 1280px) {
+    width: 518px;
+    height: 60px;
+  }
 }
 
 .restaurant-wrapper {
   display: flex;
   justify-content: flex-end;
-  @media screen and (min-width: 1024px) {
-    // display: flex;
+  @media screen and (min-width: 1280px) {
+    width: 460px;
+    height: 574px;
   }
 }
 
@@ -78,6 +92,10 @@
   @media screen and (min-width: 1024px) {
     max-width: 400px;
     height: 524px;
+  }
+  @media screen and (min-width: 1280px) {
+    max-width: 460px;
+    height: 574px;
   }
 }
 
@@ -102,6 +120,10 @@
   @media screen and (min-width: 1024px) {
     max-width: 350px;
     height: 500px;
+  }
+  @media screen and (min-width: 1280px) {
+    max-width: 460px;
+    height: 574px;
   }
 }
 
@@ -128,8 +150,12 @@
   right: -185px;
   @media screen and (min-width: 1024px) {
     top: 948px;
-    right: 35px;
-    margin-bottom: 40px;
+    right: 60px;
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 1280px) {
+    top: 903px;
+    right: 85px;
   }
 }
 
@@ -153,6 +179,10 @@
     max-width: 194px;
     height: 194px;
   }
+  @media screen and (min-width: 1280px) {
+    max-width: 254px;
+    height: 254px;
+  }
 }
 
 .img-item-lanch {
@@ -164,6 +194,10 @@
   @media screen and (min-width: 1024px) {
     max-width: 194px;
     height: 194px;
+  }
+  @media screen and (min-width: 1280px) {
+    max-width: 254px;
+    height: 254px;
   }
 }
 
@@ -178,8 +212,12 @@
   // right: 25px;
   @media screen and (min-width: 1024px) {
     position: absolute;
-    top: 1165px;
-    right: 35px;
+    top: 1180px;
+    right: 60px;
+  }
+  @media screen and (min-width: 1280px) {
+    top: 1200px;
+    right: 85px;
   }
 }
 
