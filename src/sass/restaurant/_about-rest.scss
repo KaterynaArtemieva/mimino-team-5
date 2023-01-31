@@ -1,0 +1,175 @@
+.about-rest {
+  padding-top: 16px;
+  padding-bottom: 18px;
+}
+
+.rest-descript {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-10%);
+  }
+}
+
+.rest-wrap-text {
+  @media screen and (min-width: 1024px) {
+    // margin-right: 26px;
+  }
+}
+
+.rest-descript-pre {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--light-grey-color);
+  margin-bottom: 12px;
+  @media screen and (min-width: 1024px) {
+    font-size: 32px;
+    line-height: 1.16;
+    margin-bottom: 4px;
+  }
+}
+
+.rest-descript-title {
+  font-family: 'Film P3';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  color: var(--dark-color);
+  margin-bottom: 12px;
+  @media screen and (min-width: 1024px) {
+    font-size: 64px;
+  }
+}
+
+.rest-descript-text {
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--hotel-main-color);
+  margin-bottom: 28px;
+  display: flex;
+  width: 258px;
+  height: 76px;
+  @media screen and (min-width: 1024px) {
+    width: 439px;
+    height: 80px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+}
+
+.chief {
+  width: 244px;
+  height: 322px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  margin-left: auto;
+  @media screen and (min-width: 1024px) {
+    width: 400px;
+    height: 524px;
+    margin-left: 26px;
+    margin-right: 26px;
+  }
+}
+
+.rest-promote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+  @media screen and (min-width: 1024px) {
+    transform: translateY(-20%);
+    margin-bottom: 0;
+    justify-content: flex-start;
+  }
+}
+
+.rest-promote-card {
+  width: 200px;
+  height: 278px;
+  margin-right: 20px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  @media screen and (min-width: 1024px) {
+    width: 350px;
+    height: 500px;
+    margin-right: 32px;
+  }
+}
+
+.rest-promote-text {
+  width: 163px;
+  height: 120px;
+  color: var(--last-accent-color);
+  @media screen and (min-width: 1024px) {
+    width: 312px;
+    height: 122px;
+  }
+}
+
+.rest-img-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 28px;
+  transform: translateX(17px);
+  @media screen and (min-width: 1024px) {
+    transform: translateX(-17px);
+    transform: translateY(-50%);
+    margin-bottom: 40px;
+  }
+}
+
+.rest-img-item {
+  &:not(:last-child) {
+    margin-right: 24px;
+  }
+  @media screen and (min-width: 1024px) {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+  .rest-img-cooking {
+    width: 245px;
+    height: 245px;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    @media screen and (min-width: 1024px) {
+      width: 194px;
+      height: 194px;
+    }
+  }
+
+  .rest-img-meal {
+    width: 60px;
+    height: 245px;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    @media screen and (min-width: 1024px) {
+      width: 194px;
+      height: 194px;
+    }
+  }
+
+  .arrow-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    @media screen and (min-width: 1024px) {
+    }
+  }
+}
+
+.icon-arrow {
+  fill: var(--dark-color);
+}
+
+.arrow-item {
+  &:not(:last-child) {
+    margin-right: 33px;
+  }
+}
