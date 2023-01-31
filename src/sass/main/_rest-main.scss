@@ -26,10 +26,26 @@
   font-size: 12px;
   line-height: calc(15 / 12);
 }
-.interier-img {
+
+.rest-wrap-1{
   margin-bottom: 32px;
+}
+.interier-img {
+  width: 244px;
+  height: 322px;
   margin-right: 0;
   margin-left: auto;
+}
+@media screen and (min-width: 1024px) {
+  .interier-img {
+  width: 400px;
+  height: 524px;}
+}
+@media screen and (min-width: 1280px) {
+  .interier-img {
+    width: 460px;
+  height: 574px;
+  }
 }
 .restaurant-flex {
   margin-bottom: 32px;
@@ -57,9 +73,104 @@
   display: flex;
   justify-content: flex-end;
 }
-.icon-arrow-left {
+.interier-img-big {
+  width: 200px;
+  height: 278px;
 }
-.slider-icon {
+@media screen and (min-width: 1024px) {
+  .interier-img-big {
+  width: 350px;
+  height: 500px;}
 }
-.icon-arrow-right {
+@media screen and (min-width: 1280px) {
+  .interier-img-big {
+    width: 460px;
+  height: 574px;
+  }
+}
+.rest-img_1{
+  width: 245px;
+  height: 245px;
+}
+@media screen and (min-width: 1024px) {
+  .rest-img_1 {
+  width: 194px;
+  height: 194px;}
+}
+@media screen and (min-width: 1280px) {
+  .rest-img_1 {
+    width: 254px;
+  height: 254px;
+  }
+}
+.rest-img_2{
+  width: 60px;
+  height: 245px;
+}
+@media screen and (min-width: 1024px) {
+  .rest-img_2 {
+  width: 194px;
+  height: 194px;}
+}
+@media screen and (min-width: 1280px) {
+  .rest-img_2 {
+    width: 254px;
+  height: 254px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .rest-wrap-1 {
+    margin-bottom: 0;
+display: flex;
+justify-content: space-between;
+height: 360px;
+  } 
+  .rest-main {
+    padding-top: 120px;
+    padding-bottom: 0;
+  }
+  .rest-main__uppertitle{
+    font-size: 32px;
+line-height: calc(37/32);
+  }
+  .rest-main__title{
+    font-size: 64px;
+line-height: calc(64/69);
+  }
+  .rest-main__undertitle{
+    max-width: 439px;
+    margin-bottom: 0;
+    font-size: 16px;
+line-height: 20px;
+  }
+  .rest-main-pic-1{
+    transform: translate(-65px, -152px);
+    margin-bottom: 0;
+  }
+  .restaurant-flex {
+    gap: 42px;
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
+  .rest-main__text {
+    font-size: 16px;
+line-height: calc(20/16);
+max-width: 312px;
+  }
+  .rest-slider-flex {
+    margin-bottom: 32px;
+  }
+  .slider-wrap {
+    transform: translate(-27px, -28px);
+
+  }
+}
+@media screen and (min-width: 1280px) {
+  .rest-main__undertitle {
+    max-width: 518px;
+  }
+  .slider-wrap {
+    transform: translate(-15px, -147px);
+    height: 200px;
+  }
 }
