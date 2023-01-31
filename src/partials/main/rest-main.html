@@ -1,151 +1,57 @@
-<section class="section rest-main">
+<!-- версія 2 -->
+<section class="rest-main">
   <div class="container">
-    <h3 class="visually-hidden">Restaurant</h3>
-   <div class="description-wrap"> 
-    <div class="description">
-      <p class="description-pre">Amet minim mollit non</p>
-      <p class="description-title">MIMIHO</p>
-      <p class="description-text">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequat duis enim velit mollit. Exercitation
-        veniam consequat sunt nostrud amet.
-      </p>
-    </div>
-          <div class="restaurant-wrapper">
-             <picture>
-      <sourse
-        srcset="./images/desktop/main/interier.jpg 1x,
-        ./images/desktop/main/interier-2x.jpg 2x"
-        media="(min-width: 1280px)"
-        type="image/jpg"
-      >
-      <sourse
-        srcset="./images/tablet/main/interier.jpg 1x,
-      ./images/tablet/main/interier-2x.jpg 2x"
-        media="(min-width: 1024px)"
-        type="image/jpg"
-      >
-     
-      <sourse
-        srcset="./images/mobile/main/interier.jpg 1x,
-      ./images/mobile/main/interier-2x.jpg 2x"
-        media="(min-width: 414px)"
-        type="image/jpg"
-      >
-     
+    <h2 hidden>About our hotel</h2>
+    <p class="rest-main__uppertitle">Amet minim mollit non</p>
+    <p class="rest-main__title">MIMIHO</p>
+    <p class="rest-main__undertitle">
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit. Exercitation veniam
+      consequat sunt nostrud amet.
+    </p>
+    <img
+      class="interier-img"
+      src="/src/images/mobile/main/interier.jpg"
+      alt="interier"
+    />
+    <div class="restaurant-flex">
       <img
-        src="./images/mobile/main/interier.jpg"
-        alt="Restaurant"
-        class="restaurant"
-    /></picture>
-          </div>
-   </div>
-
-    <div class="img-wrap">
-      <picture>
-        <sourse
-          srcset="./images/desktop/main/restaurant-interier.jpg 1x,
-        ./images/desktop/main/restaurant-interier-2x.jpg 2x
-      "
-          media="(min-width: 1280px)"
-          type="image/jpg"
-        >
-
-        <sourse
-          srcset="./images/tablet/main/restaurant-interier.jpg 1x,
-      ./images/tablet/main/restaurant-interier-2x.jpg 2x"
-          media="(min-width: 1024px)"
-          type="image/jpg"
-        >
-        
-        <sourse
-          srcset="./images/mobile/main/restaurant-interier.jpg 1x,
-      ./images/mobile/main/restaurant-interier-2x.jpg 2x"
-          media="(min-width: 414px)"
-          type="image/jpg"
-        >
-        
-        <img
-          class="rest-interier"
-          src="./images/mobile/main/restaurant-interier.jpg"
-          alt="Hall"
+        class="interier-img_boxshadow"
+        src="/src/images/mobile/main/restaurant-interier.jpg"
+        alt="restaurant-interier"
       />
-    </picture>
-
-      <p class="description-text accent">
+      <p class="rest-main__text">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequat duis enim velit mollit. Exercitation
         veniam consequat sunt nostrud amet.
       </p>
     </div>
-   
-    
-       <ul class="img-items list">
-      <li class="link img-item">  <picture>
-        <sourse
-          srcset="./images/desktop/main/bar.jpg 1x,
-        ./images/desktop/main/bar-2x.jpg 2x
-      "
-          media="(min-width: 1280px)"
-          type="image/jpg"
-        >
-
-        <sourse
-          srcset="./images/tablet/main/bar.jpg 1x,
-      ./images/tablet/main/bar-2x.jpg 2x"
-          media="(min-width: 1024px)"
-          type="image/jpg"
-        >
-       
-        <sourse
-          srcset="./images/mobile/main/bar.jpg 1x,
-      ./images/mobile/main/bar-2x.jpg 2x"
-          media="(min-width: 414px)"
-          type="image/jpg"
-      >
-        <img class="img-item-bar" src="./images/mobile/main/bar.jpg" alt="Bar"
-      /></picture></li>
-      <li><picture>
-        <sourse
-          srcset="./images/desktop/main/lanch.jpg 1x,
-        ./images/desktop/main/lanch-2x.jpg 2x
-      "
-          media="(min-width: 1280px)"
-          type="image/jpg"
-        >
-
-        <source
-        srcset="./images/tablet/main/lanch.jpg 1x,
-      ./images/tablet/main/lanch-2x.jpg 2x"
-        media="(min-width: 1024px)"
-        type="image/jpg">
-        
-        <sourse
-         srcset="./images/mobile/main/lanch.jpg 1x,
-      ./images/mobile/main/lanch-2x.jpg 2x"
-          media="(min-width: 414px)"
-          type="image/jpg"
-        >
-        
-        <img
-          class="img-item-lanch"
-          src="./images/tablet/main/lanch.jpg"
-          alt="Lanch"
-      /></picture> </li>
-    </ul>
-    
-  
-
-       <ul class="list arrow-list">
-      <li>
-        <svg class="icon-arrow" width="32" height="32">
-          <use href="./images/icons-full.svg#icon-arrow-left"></use>
-        </svg>
+    <div class="rest-slider-flex">
+      <img
+        class="rest-img_boxshadow"
+        src="/src/images/mobile/main/bar.jpg"
+        alt="bar"
+      />
+      <img
+        class="rest-img_boxshadow"
+        src="/src/images/mobile/main/lanch.jpg"
+        alt="lanch"
+      />
+    </div>
+    <ul class="arrow-list list">
+      <li class="icon-arrow-left">
+        <a href="">
+          <svg class="slider-icon" width="32" height="32">
+            <use href="./images/icons.svg#icon-arrow-left"></use>
+          </svg>
+        </a>
       </li>
-      <li>
-        <svg class="icon-arrow" width="32" height="32">
-          <use href="./images/icons-full.svg#icon-arrow-right"></use>
-        </svg>
+      <li class="icon-arrow-right">
+        <a href="">
+          <svg class="slider-icon" width="32" height="32">
+            <use href="./images/icons.svg#icon-arrow-right"></use>
+          </svg>
+        </a>
       </li>
     </ul>
   </div>
