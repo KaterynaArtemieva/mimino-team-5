@@ -1,0 +1,103 @@
+.menu-rest {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.menu-title {
+    font-family: "Times New Roman";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.16;
+    margin-bottom: 32px;
+    color: #000000;
+  }
+  
+  .menu-category {
+    font-family: "Times New Roman";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #000000;
+  }
+  
+  .menu-item-position {
+    max-width: 221px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  
+  .menu-item-about-position {
+    display: flex;
+    margin-bottom: 8px;
+  }
+  
+  .menu-item {
+    display: flex;
+    margin-bottom: 4px;
+  }
+  
+  .sans-margin {
+    margin-top: 0;
+  }
+  
+  .menu-item-describe-position {
+    display: block;
+    width: 225px;
+    margin-right: 28px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  
+  .menu-item-weight-position {
+    font-family: "Montserrat", sans-serif;
+    margin-right: 32px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: auto;
+    margin-right: 32px;
+  }
+  
+  .menu-item-price-position {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  
+  .menu-order-btn {
+    display: block;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding: 14px 24px;
+    font-weight: 700;
+    min-width: 236px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    background: #000000;
+    border: 2px solid #fffdee;
+    border-radius: 25px;
+    color: #f3c653;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .menu-order-btn:hover,
+  .menu-order-btn:focus {
+    background: #ffffff;
+    border: 2px solid #f3c653;
+    border-radius: 25px;
+  }
