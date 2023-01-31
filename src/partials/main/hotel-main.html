@@ -1,52 +1,144 @@
 <section class="hotel-main">
   <div class="container">
-    <h2 hidden>About our hotel</h2>
-    <p class="hotel-main__uppertitle">Amet minim mollit non</p>
-    <p class="hotel-main__title">MIMIHO</p>
-    <p class="hotel-main__undertitle">
-      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-      Velit officia consequat duis enim velit mollit. Exercitation veniam
-      consequat sunt nostrud amet.
-    </p>
-    <div class="apartament-img">
-      <img
-        class="apartament-img_boxshadow"
-        src="/src/images/mobile/main/apartament.jpg"
-        alt="apartament"
-        width="244"
-        height="322"
-      />
+    <div class="hotel-wrap-1">
+      <div>
+        <h2 hidden>About our hotel</h2>
+        <p class="hotel-main__uppertitle">Amet minim mollit non</p>
+        <p class="hotel-main__title">MIMIHO</p>
+        <p class="hotel-main__undertitle">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+
+      <picture class="apartament-img">
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            /src/images/desktop/main/modern-apartment.jpg    1x,
+            /src/images/desktop/main/modern-apartment-2x.jpg 2x
+          "
+        />
+        <source
+          media="(min-width: 1024px)"
+          srcset="
+            /src/images/tablet/main/modern-apartment-2x.jpg 1x,
+            /src/images/tablet/main/modern-apartment-2x.jpg 2x
+          "
+        />
+        <source
+          media="(max-width: 1023px)"
+          srcset="
+            /src/images/mobile/main/apartament.jpg     1x,
+            /src/images/mobile/main/apartament-@2x.jpg 2x
+          "
+        />
+        <img
+          class="apartament-img_big"
+          src="/src/images/mobile/main/apartament.jpg"
+          alt="apartament"
+          loading="lazy"
+        />
+      </picture>
     </div>
+
     <div class="hotel-hall-flex">
       <p class="hotel-main__text">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequat duis enim velit mollit. Exercitation
         veniam consequat sunt nostrud amet.
       </p>
-      <img
-        class="apartament-img_boxshadow"
-        src="/src/images/mobile/main/hotel-hall.jpg"
-        alt="hotel-hall"
-        width="200"
-        height="278"
-      />
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            /src/images/desktop/main/hotel-hall.jpg    1x,
+            /src/images/desktop/main/hotel-hall-2x.jpg 2x
+          "
+        />
+        <source
+          media="(min-width: 1024px)"
+          srcset="
+            /src/images/tablet/main/hotel-hall.jpg    1x,
+            /src/images/tablet/main/hotel-hall-2x.jpg 2x
+          "
+        />
+        <source
+          media="(max-width: 1023px)"
+          srcset="
+            /src/images/mobile/main/hotel-hall.jpg    1x,
+            /src/images/mobile/main/hotel-hall-2x.jpg 2x
+          "
+        />
+        <img
+          class="hall-img"
+          src="/src/images/mobile/main/hotel-hall.jpg"
+          alt="restaurant-interier"
+          loading="lazy"
+        />
+      </picture>
     </div>
     <div class="slider-box">
       <div class="hotel-slider-flex">
-        <img
-          class="apartament-img_boxshadow"
-          src="/src/images/mobile/main/white-towel.jpg"
-          alt="white-towel"
-          width="65"
-          height="245"
-        />
-        <img
-          class="apartament-img_boxshadow"
-          src="/src/images/mobile/main/hotel-registration.jpg"
-          alt="hotel-registration"
-          width="245"
-          height="245"
-        />
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              /src/images/desktop/main/white-towel.jpg    1x,
+              /src/images/desktop/main/white-towel-2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 1024px)"
+            srcset="
+              /src/images/tablet/main/white-towel.jpg    1x,
+              /src/images/tablet/main/white-towel-2x.jpg 2x
+            "
+          />
+          <source
+            media="(max-width: 1023px)"
+            srcset="
+              /src/images/mobile/main/white-towel.jpg    1x,
+              /src/images/mobile/main/white-towel-2x.jpg 2x
+            "
+          />
+          <img
+            class="apartament-img_towel"
+            src="/src/images/mobile/main/white-towel.jpg"
+            alt="white-towel"
+            loading="lazy"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              /src/images/desktop/main/hotel-registration.jpg    1x,
+              /src/images/desktop/main/hotel-registration-2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 1024px)"
+            srcset="
+              /src/images/tablet/main/hotel-registration.jpg    1x,
+              /src/images/tablet/main/hotel-registration-2x.jpg 2x
+            "
+          />
+          <source
+            media="(max-width: 1023px)"
+            srcset="
+              /src/images/mobile/main/hotel-registration.jpg    1x,
+              /src/images/mobile/main/hotel-registration-2x.jpg 2x
+            "
+          />
+          <img
+            class="hotel-registration-img"
+            src="/src/images/mobile/main/hotel-registration.jpg"
+            alt="hotel-registration"
+            loading="lazy"
+          />
+        </picture>
       </div>
     </div>
     <ul class="icon-arrow list">
