@@ -1,7 +1,19 @@
 .menu-rest {
+    min-width: 320px;
   padding-top: 32px;
   padding-bottom: 32px;
+background-color: #F0ECD6;
+
+@media screen and (min-width: 1024px) {
+    padding-top: 58px;
+    padding-bottom: 40px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-bottom: 60px;
+  }
 }
+
 .menu-title {
     font-family: "Times New Roman";
     font-weight: 700;
@@ -9,7 +21,51 @@
     line-height: 1.16;
     margin-bottom: 32px;
     color: #000000;
-  }
+
+    @media screen and (max-width: 319.98px) {
+        font-size: 24.64px;
+      }
+    
+      @media screen and (min-width: 414px) {
+        font-size: 32px;
+      }
+    
+      @media screen and (min-width: 1024px) {
+        margin-bottom: 40px;
+      }
+    }
+    
+
+
+    .menu-column {
+        display: block;
+
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 88px;
+      }
+    
+      @media screen and (min-width: 1280px) {
+        column-gap: 140px;
+      }
+    }
+    
+    .menu-column {
+      @media screen and (min-width: 1024px) {
+        flex-basis: calc((100% - 88px) / 2);
+      }
+    
+      @media screen and (min-width: 1280px) {
+        flex-basis: calc((100% - 140px) / 2);
+      }
+    }
+    
+    .menu-column:not(:last-child) {
+      @media screen and (max-width: 1023.98px) {
+        margin-bottom: 16px;
+      }
+    }
   
   .menu-category {
     font-family: "Times New Roman";
@@ -19,6 +75,19 @@
     margin-top: 16px;
     margin-bottom: 16px;
     color: #000000;
+  
+    @media screen and (min-width: 1024px) {
+        margin-top: 40px;
+      margin-bottom: 20px;
+    }
+  
+    @media screen and (min-width: 1280px) {
+      font-size: 24px;
+      line-height: 1.16;
+      margin-top: 40px;
+      margin-bottom: 20px;
+
+    }
   }
   
   .menu-item-position {
@@ -29,18 +98,28 @@
     line-height: 1.21;
     letter-spacing: 0.02em;
     color: #000000;
+  
+  
+    @media screen and (min-width: 1280px) {
+      font-size: 16px;
+      line-height: 1.25;
+    }
   }
   
+
+
   .menu-item-about-position {
     display: flex;
     margin-bottom: 8px;
   }
+
   
   .menu-item {
     display: flex;
     margin-bottom: 4px;
   }
   
+
   .sans-margin {
     margin-top: 0;
   }
@@ -54,6 +133,10 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #000000;
+
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 12px;
+    }
   }
   
   .menu-item-weight-position {
@@ -66,8 +149,21 @@
     color: #000000;
     margin-left: auto;
     margin-right: 32px;
-  }
   
+    @media screen and (max-width: 319.98px) {
+        font-size: 10.88px;
+      }
+    
+      @media screen and (min-width: 414px) {
+        font-size: 14px;
+      }
+    
+      @media screen and (min-width: 1024px) {
+        padding-right: 60px;
+      }
+    }
+  
+
   .menu-item-price-position {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
@@ -75,8 +171,23 @@
     line-height: 1.21;
     letter-spacing: 0.02em;
     color: #000000;
+
+  @media screen and (max-width: 319.98px) {
+    font-size: 10.88px;
   }
+
+  @media screen and (min-width: 414px) {
+    font-size: 14px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 70px;
+  }
+}
   
+
   .menu-order-btn {
     display: block;
     font-family: "Montserrat";
@@ -94,10 +205,26 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
+    
   .menu-order-btn:hover,
   .menu-order-btn:focus {
     background: #ffffff;
     border: 2px solid #f3c653;
     border-radius: 25px;
   }
+
+  @media screen and (min-width: 1024px) {
+    .menu-order-btn {
+      margin-right: 0;
+      margin-top: 64px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .menu-order-btn {
+      margin-right: 0;
+      margin-top: 48px;
+      margin-bottom: 60px;
+    }
+  }
+
