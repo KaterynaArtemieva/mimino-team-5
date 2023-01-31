@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
  });
 
- document.querySelectorAll('.modal-icon').forEach(trigger => {
+ document.querySelectorAll('.modal-close-btn').forEach(trigger => {
   trigger.addEventListener('click', function(){ 
     document.querySelectorAll('body').forEach(target => target.classList.remove('no-scroll')); 
     });
