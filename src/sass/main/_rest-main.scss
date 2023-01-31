@@ -1,0 +1,65 @@
+// версія 2
+.rest-main {
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+.rest-main__uppertitle {
+  margin-bottom: 12px;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  color: var(--light-grey-color);
+}
+.rest-main__title {
+  margin-bottom: 12px;
+  font-family: 'Film P3';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: calc(43 / 40);
+  letter-spacing: 0.3em;
+  color: var(--dark-color);
+}
+.rest-main__undertitle {
+  max-width: 258px;
+  margin-bottom: 28px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+}
+.interier-img {
+  margin-bottom: 32px;
+  margin-right: 0;
+  margin-left: auto;
+}
+.restaurant-flex {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rest-main__text {
+  transform: translateY(-18px);
+  max-width: 163px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  letter-spacing: 0.02em;
+  color: var(--last-accent-color);
+}
+.rest-slider-flex {
+  transform: translateX(15px);
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+.arrow-list {
+  display: flex;
+  justify-content: flex-end;
+}
+.icon-arrow-left {
+}
+.slider-icon {
+}
+.icon-arrow-right {
+}
