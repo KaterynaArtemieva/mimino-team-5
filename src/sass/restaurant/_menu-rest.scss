@@ -1,3 +1,7 @@
+.menu-rest {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .menu-title {
     font-family: "Times New Roman";
     font-weight: 700;
@@ -18,21 +22,23 @@
   }
   
   .menu-item-position {
+    max-width: 221px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.21;
     letter-spacing: 0.02em;
     color: #000000;
-    margin-top: 8px;
   }
   
   .menu-item-about-position {
     display: flex;
+    margin-bottom: 8px;
   }
   
   .menu-item {
     display: flex;
+    margin-bottom: 4px;
   }
   
   .sans-margin {
@@ -41,9 +47,8 @@
   
   .menu-item-describe-position {
     display: block;
-    width: 220px;
-    margin-top: 4px;
-    margin-right: 33px;
+    width: 225px;
+    margin-right: 28px;
     font-family: "Montserrat", sans-serif;
     font-size: 10px;
     line-height: 1.2;
@@ -54,7 +59,7 @@
   .menu-item-weight-position {
     font-family: "Montserrat", sans-serif;
     margin-right: 32px;
-    font-weight: 700;
+    font-weight: 300;
     font-size: 14px;
     line-height: 1.21;
     letter-spacing: 0.02em;
