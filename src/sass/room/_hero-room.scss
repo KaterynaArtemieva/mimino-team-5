@@ -1,0 +1,219 @@
+// ==========HERO-ROOM=========
+
+.hero-room {
+    padding-top: 64px;
+}
+@media screen and (min-width: 1024px) {
+    .hero-room {
+        position: relative;
+        padding-top: 100px;
+        padding-bottom: 22px;
+    }
+}
+// @media screen and (min-width: 1280px) {
+//     .hero-room {
+//         padding-top: 164px;
+//         padding-bottom: 64px;
+//     }
+// }
+
+
+.hero-room-overlay {
+    max-width: 414px;
+    min-height: 740px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--dark-bkg-color);
+    background-image:
+        linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
+        url(../images/mobile/hotel/bgc-hotel@1x.jpg);
+    background-size: 100% 143px, cover;
+    background-repeat: no-repeat;
+    background-position: top, center;
+}
+@media screen and (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-room-overlay {
+        background-image:
+            linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
+            url(../images/mobile/hotel/bgc-hotel@2x.jpg);
+    }
+}
+// ==========tablet screen==========
+@media screen and (min-width: 1024px) {
+    .hero-room-overlay {
+        max-width: 1024px;
+        min-height: 720px;
+        background-image: 
+            linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
+            url(../images/tablet/hotel/bgc-hotel@1x.jpg);
+        background-size: 100% 116px, cover;
+    }
+}
+@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
+(min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
+(min-width: 1024px) and (min-resolution: 192dpi),
+(min-width: 1024px) and (min-resolution: 2dppx) {
+    .hero-room-overlay {
+        background-image: 
+            linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
+            url(../images/tablet/hotel/bgc-hotel@2x.jpg);
+    }
+}
+// ==========desktop screen==========
+@media screen and (min-width: 1024px) {
+    .hero-room-overlay {
+        max-width: 1280px;
+        min-height: 720px;
+        background-image:
+            linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
+            url(../images/desktop/hotel/bgc-hotel@1x.jpg);
+        background-size: 100% 147px, cover;
+    }
+}
+@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
+(min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
+(min-width: 1024px) and (min-resolution: 192dpi),
+(min-width: 1024px) and (min-resolution: 2dppx) {
+    .hero-room-overlay {
+        background-image:
+            linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
+            url(../images/desktop/hotel/bgc-hotel@2x.jpg);
+    }
+}
+
+    // -----адреса-----
+
+.hero-room-address {
+    margin-left: auto;
+    max-width: 210px;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+}
+
+.hero-room-address-link {
+    display: flex;
+    align-items: center;
+    padding: 8px 5px 8px 6px;
+    font-family: var(--font-fam-monserat);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.01em;
+    color: var(--accent-color);
+}
+
+.address-icon {
+    flex-shrink: 0;
+    margin-right: 8px;
+    fill: currentColor;
+}
+
+.address-text {
+    color: #e5e5e5;
+}
+
+// -----Заголовок та опис-----
+
+.hero-room-content {
+
+}
+
+.hero-room-title {
+    width: 325px;
+    margin-top: 372px;
+    margin-bottom: 14px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: calc(32/28);
+    letter-spacing: 0.05em;
+    color: var(--light-color);
+}
+
+.room-description {
+    width: 325px;
+    margin-bottom: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: calc(15/12);
+    letter-spacing: 0.02em;
+    color: var(--light-color);
+}
+
+// -----Соціальни мережі комплексу-----
+.hero-room-currents {
+    display: flex;
+}
+
+.hero-room-socail-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-right: 70px;
+}
+
+
+.hero-room-list-item {
+    
+
+
+
+}
+
+.hero-room-link {
+    display: block;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    color: rgba(243, 198, 83, 0.7);
+    transition: transform var(--timing-duration) var(--timing-function);
+    }
+
+.hero-room-link:hover,
+.hero-room-link:focus,
+.hero-room-link:active {
+    transform: scale(1.1);
+}
+
+.hero-room-social-icon {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    fill: currentColor;
+
+}
+
+.hero-room-btn {
+    display: block;
+    text-align: center;
+
+    margin-top: 13px;
+    margin-bottom: 40px;
+    padding: 12px 35px;
+    min-width: 228px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(20/16);
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+    background: var(--btn-bkg-color);
+    border: 2px solid var(--light-color);
+    border-radius: 25px;
+}
+
+.hero-room-btn:hover,
+.hero-room-btn:focus,
+.hero-room-btn:active {
+    background-color: var(--light-color);
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
