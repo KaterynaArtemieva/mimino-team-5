@@ -23,15 +23,15 @@
             class="booking-form-input"
             type="text"
             name="user_name"
-            id="user_name"
+            id="username"
             placeholder="Ваше ім’я"
             required
-            pattern="^[А-Яа-я]+\s[а-яА-Я]+$"
+            pattern="^[А-Яа-я-A-Za-z]+\s[а-яА-Я-A-Za-z]+$" 
             title="Ім'я користувача має складатися з двох слів, розділених пробілом."
           />
         </div>
 
-        <label class="booking-form-label" for="user_name"
+        <label class="booking-form-label" for="username"
           >На кого забронювати столик&#63;</label
         >
       </div>
@@ -74,13 +74,13 @@
             class="booking-form-input"
             type="tel"
             name="user_phone"
-            id="user_phone"
+            id="userphone"
             placeholder="+38 (___) ___-__-__"
             required
           />
         </div>
 
-        <label class="booking-form-label" for="user_phone"
+        <label class="booking-form-label" for="userphone"
           >Номер телефону</label
         >
       </div>
@@ -92,7 +92,6 @@
               class="booking-select-input"
               name="booking_date"
               id="booking_date"
-              required
             >
               <option value="" selected>Сьогодні</option>
               <option value="2">Завтра</option>
@@ -147,7 +146,7 @@
             id="user_name"
             placeholder="Ваше ім’я"
             required
-            pattern="^[А-Яа-я]+\s[а-яА-Я]+$"
+            pattern="^[А-Яа-я-A-Za-z]+\s[а-яА-Я-A-Za-z]+$" 
             title="Ім'я користувача має складатися з двох слів, розділених пробілом."
           />
         </div>
@@ -166,7 +165,6 @@
             id="user_phone"
             placeholder="+38 (___) ___-__-__"
             required
-            pattern="[0-9]{3}"
           />
         </div>
 
@@ -181,7 +179,7 @@
             <select
               class="booking-select-input"
               name="room category"
-              id="room_category"
+              id="roomcategory"
               title="Оберіть номер"
             >
               <option value="Double room">Двомісний номер</option>
@@ -198,7 +196,7 @@
           </span>
         </div>
 
-        <label class="booking-form-label" for="room_category"
+        <label class="booking-form-label" for="roomcategory"
           >Категорія номеру</label
         >
       </div>
@@ -211,7 +209,6 @@
                 class="booking-select-input"
                 name="checkin_date"
                 id="checkin_date"
-                required
               >
                 <option value="" selected>Сьогодні</option>
                 <option value="2">Завтра</option>
@@ -238,7 +235,6 @@
                 class="booking-select-input"
                 name="checkout_date"
                 id="checkout_date"
-                required
               >
                 <option value="" selected>Сьогодні</option>
                 <option value="2">Завтра</option>
@@ -294,6 +290,7 @@
               name="room category"
               id="room_category"
               title="Оберіть номер"
+          
             >
               <option value="Double room">Двомісний номер</option>
               <option value="Double lux" selected>Двомісний люкс</option>

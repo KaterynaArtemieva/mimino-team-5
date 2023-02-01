@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // no scroll
 
 document.addEventListener('DOMContentLoaded', () => {
- document.querySelectorAll('.hero-button').forEach(trigger => {
+ document.querySelectorAll('.js-open-modal').forEach(trigger => {
   trigger.addEventListener('click', function(){ 
     document.querySelectorAll('body').forEach(target => target.classList.add('no-scroll')); 
     });
