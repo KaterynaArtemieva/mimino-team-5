@@ -203,10 +203,11 @@
   justify-content: flex-end;
 }
 
-.arrow-icon {
+.arrow-icon-rest {
+  display: block;
   fill: var(--dark-color);
-  width: 30px;
-  height: 17px;
+  width: 32px;
+  height: 32px;
 }
 
 .arrow-item {
