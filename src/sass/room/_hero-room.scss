@@ -2,8 +2,21 @@
 
 .hero-room {
     padding-top: 64px;
-    // max-height: 740px;
 }
+@media screen and (min-width: 1024px) {
+    .hero-room {
+        position: relative;
+        padding-top: 100px;
+        padding-bottom: 22px;
+    }
+}
+// @media screen and (min-width: 1280px) {
+//     .hero-room {
+//         padding-top: 164px;
+//         padding-bottom: 64px;
+//     }
+// }
+
 
 .hero-room-overlay {
     max-width: 414px;
@@ -13,14 +26,11 @@
     background-color: var(--dark-bkg-color);
     background-image:
         linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
-        url(../images/mobile/main/room.jpg);
-        // ПРОВЕРИТЬ ИЗОБРАЖЕНИЕ НА 1х!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        url(../images/mobile/hotel/bgc-hotel@1x.jpg);
     background-size: 100% 143px, cover;
     background-repeat: no-repeat;
     background-position: top, center;
-
 }
-
 @media screen and (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -28,10 +38,51 @@
     .hero-room-overlay {
         background-image:
             linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
-            url(../images/mobile/main/room.jpg);
-            // ПРОВЕРИТЬ ИЗОБРАЖЕНИЕ НА 2х!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            url(../images/mobile/hotel/bgc-hotel@2x.jpg);
     }
+}
+// ==========tablet screen==========
+@media screen and (min-width: 1024px) {
+    .hero-room-overlay {
+        max-width: 1024px;
+        min-height: 720px;
+        background-image: 
+            linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
+            url(../images/tablet/hotel/bgc-hotel@1x.jpg);
+        background-size: 100% 116px, cover;
     }
+}
+@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
+(min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
+(min-width: 1024px) and (min-resolution: 192dpi),
+(min-width: 1024px) and (min-resolution: 2dppx) {
+    .hero-room-overlay {
+        background-image: 
+            linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
+            url(../images/tablet/hotel/bgc-hotel@2x.jpg);
+    }
+}
+// ==========desktop screen==========
+@media screen and (min-width: 1024px) {
+    .hero-room-overlay {
+        max-width: 1280px;
+        min-height: 720px;
+        background-image:
+            linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
+            url(../images/desktop/hotel/bgc-hotel@1x.jpg);
+        background-size: 100% 147px, cover;
+    }
+}
+@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
+(min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
+(min-width: 1024px) and (min-resolution: 192dpi),
+(min-width: 1024px) and (min-resolution: 2dppx) {
+    .hero-room-overlay {
+        background-image:
+            linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
+            url(../images/desktop/hotel/bgc-hotel@2x.jpg);
+    }
+}
 
     // -----адреса-----
 
@@ -65,6 +116,10 @@
 }
 
 // -----Заголовок та опис-----
+
+.hero-room-content {
+
+}
 
 .hero-room-title {
     width: 325px;
@@ -113,8 +168,6 @@
 
 .hero-room-link {
     display: block;
-    // width: 24px;
-    // height: 24px;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
