@@ -29,9 +29,7 @@
   margin-right: auto;
   background-image: linear-gradient(
       to right,
-      var(--gradient-bkg),
-      var(--gradient-bkg)
-    ),
+      var(--gradient-bkg)),
     url(../images/mobile/main/bgc-main@1x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,7 +42,6 @@
   .hero-overlay {
     background-image: linear-gradient(
         to right,
-        var(--gradient-bkg),
         var(--gradient-bkg)
       ),
       url(../images/mobile/main/bgc-main@1x.jpg);
@@ -57,10 +54,9 @@
     min-height: 720px;
     background-image: linear-gradient(
         to right,
-        var(--gradient-bkg),
         var(--gradient-bkg)
       ),
-      url(../images/tablet/main.tablet/bgc-main@1x.jpg);
+      url(../images/tablet/main/bgc-main@1x.jpg);
   }
 }
 @media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
@@ -70,10 +66,9 @@
   .hero-overlay {
     background-image: linear-gradient(
         to right,
-        var(--gradient-bkg),
         var(--gradient-bkg)
       ),
-      url(../images/tablet/main.tablet/bgc-main@2x.jpg);
+      url(../images/tablet/main/bgc-main@2x.jpg);
   }
 }
 /* desk screen  */
@@ -84,7 +79,6 @@
 
     background-image: linear-gradient(
         to right,
-        var(--gradient-bkg),
         var(--gradient-bkg)
       ),
       url(../images/desktop/main/bgc-main@1x.jpg);
@@ -97,7 +91,6 @@
   .hero-overlay {
     background-image: linear-gradient(
         to right,
-        var(--gradient-bkg),
         var(--gradient-bkg)
       ),
       url(../images/desktop/main/bgc-main@2x.jpg);
@@ -276,8 +269,7 @@
   font-weight: 700;
   font-size: inherit;
   line-height: 1.25;
-  //   letter-spacing: 0.02em;
-
+  text-align: center;
   color: var(--accent-color);
 
   background-color: var(--btn-bkg-color);

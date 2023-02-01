@@ -1,0 +1,94 @@
+// HERO-HOTEL
+
+.hero-hotel-overlay {
+  max-width: 414px;
+  min-height: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      var(--gradient-bkg)
+    ),
+    url(../images/mobile/hotel/bgc-hotel@1x.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-hotel-overlay {
+    background-image: linear-gradient(
+        to right,
+        var(--gradient-bkg)
+      ),
+      url(../images/mobile/hotel/bgc-hotel@2x.jpg);
+  }
+}
+/* tablet screen */
+@media screen and (min-width: 1024px) {
+  .hero-hotel-overlay {
+    max-width: 1024px;
+    min-height: 720px;
+    background-image: linear-gradient(
+        to right,
+        var(--gradient-bkg)
+      ),
+      url(../images/tablet/hotel/bgc-hotel@1x.jpg);
+  }
+}
+@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
+  (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
+  (min-width: 1024px) and (min-resolution: 192dpi),
+  (min-width: 1024px) and (min-resolution: 2dppx) {
+  .hero-hotel-overlay {
+    background-image: linear-gradient(
+        to right,
+        var(--gradient-bkg)),
+      url(../images/tablet/hotel/bgc-hotel@2x.jpg);
+  }
+}
+/* desk screen  */
+@media screen and (min-width: 1280px) {
+  .hero-hotel-overlay {
+    max-width: 1280px;
+    min-height: 720px;
+
+    background-image: linear-gradient(
+        to right,
+        var(--gradient-bkg)
+      ),
+      url(../images/desktop/hotel/bgc-hotel@1x.jpg);
+  }
+}
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+  (min-width: 1280px) and (min-resolution: 192dpi),
+  (min-width: 1280px) and (min-resolution: 2dppx) {
+  .hero-hotel-overlay {
+    background-image: linear-gradient(
+        to right,
+        var(--gradient-bkg)
+      ),
+      url(../images/desktop/hotel/bgc-hotel@1x.jpg);
+  }
+}
+
+.hero-title.hotel {
+    margin-bottom: 32px;
+}
+
+.hero-type.hotel {
+    margin-bottom: 178px;
+}
+@media screen and (min-width: 1024px) {
+  .hero-type.hotel {
+    margin-bottom: 218px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero-type.hotel {
+    margin-bottom: 242px;
+  }
+}
