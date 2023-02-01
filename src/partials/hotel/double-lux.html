@@ -1,46 +1,136 @@
+
 <section class="double-lux">
     <div class="container container-hotel">
-        <p class="about">Amet minim mollit non</p>
-        <a class="logo-link" href="./index.html">MIMIHO</a>
-    <h2 class="section-title">ДВОМІСНИЙ НОМЕР люкс</h2>
-    <p class="number-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-        Velit officia consequat duis enim velit mollit. 
-        Exercitation veniam consequat sunt nostrud amet.
-    </p>
-    <img 
-        class="194" 
-        src="./images/mobile/hotel/apartment-mob-1x.jpg" 
-        alt="apartment" width="224" height="322"
-    />
-    <div class="br-blok">
-        <img 
-        class="hotel-img bed-table" 
-        src="./images/mobile/hotel/bed-table.jpg" 
-        alt="apartment" width="194" height="194"
-    />
-    <img 
-        class="hotel-img cup-tea" 
-        src="./images/mobile/hotel/cup-tea.jpg" 
-        alt="apartment" width="194" height="194"
-    />
-    </div>
-    <ul class="icon-arrow">
-        <li class="icon-arrow-left">
-            <a href="">
+      <div class="part-one">
+  
+        <div class="one-description">
+          <p class="about">Amet minim mollit non</p>
+          <p class="logo-link">MIMIHO</p>
+          <h2 class="section-title">ДВОМІСНИЙ НОМЕР люкс</h2>
+          <p class="number-description">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            Velit officia consequat duis enim velit mollit. Exercitation veniam
+            consequat sunt nostrud amet.
+          </p>
+        </div>
+  
+        <picture>
+          <source media="(min-width:1280px)"
+            srcset="
+            ./images/desktop/hotel/apartment-desk-1х.jpg 1x,
+            ./images/desktop/hotel/apartment-desk-2x.jpg 2x
+            "
+            type="image/jpg"
+          />
+          <source media="(min-width:1024px)"
+            srcset="
+            ./images/tablet/hotel/apartment-tab-1х.jpg 1x,
+            ./images/tablet/hotel/apartment-tab-2x.jpg 2x
+            "
+            type="image/jpg"
+          />
+          <source media="(min-width:414px)"
+            srcset="
+            ./images/mobile/hotel/apartment-mob-1x.jpg 1x,
+            ./images/mobile/hotel/apartment-mob-2x.jpg 2x
+            "
+            type="image/jpg"
+          />
+          <img class="apartment"
+            src="./images/mobile/hotel/apartment-mob-1x.jpg" 
+            alt="apartment"
+          />
+        </picture>
+      </div>
+  
+      <div class="part-two">
+        <div class="img-arrow">
+        <div class="img-blok">
+          <picture>
+            <source media="(min-width:1280px)"
+              srcset="
+              ./images/desktop/hotel/bathroom-elements-self.jpg 1x,
+              ./images/desktop/hotel/bathroom-elements-self-2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source media="(min-width:1024px)"
+              srcset="
+              ./images/tablet/hotel/bathroom-elements-self.jpg 1x,
+              ./images/tablet/hotel/bathroom-elements-self-2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source media="(min-width:414px)"
+              srcset="
+              ./images/mobile/hotel/bed-table.jpg 1x,
+              ./images/mobile/hotel/bed-table-2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img class="hotel-img bed-table"
+              src="./images/mobile/hotel/bed-table.jpg" 
+              alt="bed room table"
+            />
+          </picture>
+  
+          <picture>
+            <source media="(min-width:1280px)"
+              srcset="
+              ./images/desktop/hotel/cup-tea.jpg 1x,
+              ./images/desktop/hotel/cup-tea-2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source media="(min-width:1024px)"
+              srcset="
+              ./images/tablet/hotel/cup-tea.jpg 1x,
+              ./images/tablet/hotel/cup-tea-2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source media="(min-width:414px)"
+              srcset="
+              ./images/mobile/hotel/cup-tea.jpg 1x,
+              ./images/mobile/hotel/cup-tea-2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img 
+              class="hotel-img cup-tea"
+              src="./images/mobile/hotel/cup-tea.jpg" 
+              alt="cup of tea"
+            />
+          </picture>
+        </div>
+  
+          <ul class="icon-arrow">
+            <li class="icon-arrow-left">
+              <a href="">
                 <svg class="slider-icon" width="32" height="32">
-                    <use href="./images/icons.svg#icon-arrow-left"></use>
-                </svg>
-            </a>
-        </li>
-        <li class="icon-arrow-right">
-            <a href="">
+                  <use href="./images/icons.svg#icon-arrow-left"></use>
+              </svg>
+              </a>
+            </li>
+            <li class="icon-arrow-right">
+              <a href="">
                 <svg class="slider-icon" width="32" height="32">
-                    <use href="./images/icons.svg#icon-arrow-right"></use>
-                </svg>
-            </a>
-        </li>
-    </ul>
-    <button class="btn" type="button">Детальніше</button>
-    <button class="btn" type="button">Переглянути ціни</button>
+                  <use href="./images/icons.svg#icon-arrow-right"></use>
+               </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+  
+          <ul class="hotel-button">
+            <li class="hotel-button-item">
+              <button class="btn btn-link" type="submit" onClick="location.href='./room.html'">Детальніше</button>
+            </li>
+            <li class="hotel-button-item">
+              <button class="btn first" type="button">Переглянути ціни</button>
+            </li>
+          </ul>
+      </div>
+        
     </div>
-</section>
+  </section>
