@@ -1,0 +1,76 @@
+
+.hero-rest-overlay {
+  max-width: 414px;
+  min-height: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      var(--gradient-bkg)
+    ),
+    url(../images/mobile/restoraunt/bgc-rest@1x.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-rest-overlay {
+    background-image: linear-gradient(
+        to right,
+        var(--gradient-bkg)
+      ),
+      url(../images/mobile/restoraunt/bgc-rest@2x.jpg);
+  }
+}
+/* tablet screen */
+@media screen and (min-width: 1024px) {
+  .hero-rest-overlay {
+    max-width: 1024px;
+    min-height: 720px;
+    background-image: linear-gradient(
+        to right,
+        var(--gradient-bkg)
+      ),
+      url(../images/tablet/restaurant/bgc-rest@1x.jpg);
+  }
+}
+@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
+  (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
+  (min-width: 1024px) and (min-resolution: 192dpi),
+  (min-width: 1024px) and (min-resolution: 2dppx) {
+  .hero-rest-overlay {
+    background-image: linear-gradient(
+        to right,
+        var(--gradient-bkg)
+      ),
+      url(../images/tablet/restaurant/bgc-rest@2x.jpg);
+  }
+}
+/* desk screen  */
+@media screen and (min-width: 1280px) {
+  .hero-rest-overlay {
+    max-width: 1280px;
+    min-height: 720px;
+
+    background-image: linear-gradient(
+        to right,
+        var(--gradient-bkg)
+      ),
+      url(../images/desktop/restaurant/bgc-rest@1x.jpg);
+  }
+}
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+  (min-width: 1280px) and (min-resolution: 192dpi),
+  (min-width: 1280px) and (min-resolution: 2dppx) {
+  .hero-rest-overlay {
+    background-image: linear-gradient(
+        to right,
+        var(--gradient-bkg)
+      ),
+      url(../images/desktop/restaurant/bgc-rest@2x.jpg);
+  }
+}
