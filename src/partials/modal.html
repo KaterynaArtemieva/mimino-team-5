@@ -1,0 +1,369 @@
+<!-- MODAL - BOOK THE TABLE -->
+
+<div class="modal table" data-modal="1">
+  <button class="modal-close-btn js-modal-close" type="button">
+    <svg class="icon-close" width="24" height="24">
+      <use href="./images/icons-full.svg#icon-close"></use>
+    </svg>
+  </button>
+
+  <form class="modal-form" name="booking_table_form">
+    <strong class="booking-form-title" id="modal_booking_table_form"
+      >Забронювати столик</strong
+    >
+
+    <div
+      class="booking-table-form-group"
+      role="group"
+      aria-labelledby="modal_booking_table_form"
+    >
+      <div class="booking-table-form-field">
+        <div class="booking-form-input-group">
+          <input
+            class="booking-form-input"
+            type="text"
+            name="user_name"
+            id="user_name"
+            placeholder="Ваше ім’я"
+            required
+            pattern="^[А-Яа-я]+\s[а-яА-Я]+$"
+            title="Ім'я користувача має складатися з двох слів, розділених пробілом."
+          />
+        </div>
+
+        <label class="booking-form-label" for="user_name"
+          >На кого забронювати столик&#63;</label
+        >
+      </div>
+
+      <div class="booking-table-form-field">
+        <div class="booking-form-input-group">
+          <div class="select-wrapper">
+            <select
+              class="booking-select-input"
+              name="tables_quantity"
+              id="tables_quantity"
+              title="Оберіть кількість осіб"
+            >
+              <option value="1">1</option>
+              <option value="2" selected>2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+            </select>
+          </div>
+
+          <span class="select-icon">
+            <svg class="icon" width="24" height="24">
+              <use href="./images/icons-full.svg#icon-arrow-down"></use>
+            </svg>
+          </span>
+        </div>
+
+        <label class="booking-form-label" for="tables_quantity"
+          >Столик на яку кількість осіб&#63;</label
+        >
+      </div>
+
+      <div class="booking-table-form-field">
+        <div class="booking-form-input-group">
+          <input
+            class="booking-form-input"
+            type="tel"
+            name="user_phone"
+            id="user_phone"
+            placeholder="+38 (___) ___-__-__"
+            required
+          />
+        </div>
+
+        <label class="booking-form-label" for="user_phone"
+          >Номер телефону</label
+        >
+      </div>
+
+      <div class="booking-table-form-field">
+        <div class="booking-form-input-group">
+          <div class="select-wrapper">
+            <select
+              class="booking-select-input"
+              name="booking_date"
+              id="booking_date"
+              required
+            >
+              <option value="" selected>Сьогодні</option>
+              <option value="2">Завтра</option>
+              <option value="3">Післязавтра</option>
+              <option value="4">Наступного тижня</option>
+            </select>
+          </div>
+
+          <span class="select-icon">
+            <svg class="icon" width="24" height="24">
+              <use href="./images/icons-full.svg#icon-arrow-down"></use>
+            </svg>
+          </span>
+        </div>
+
+        <label class="booking-form-label" for="booking_date"
+          >На яку дату бронювати&#63;</label
+        >
+      </div>
+    </div>
+
+    <button class="booking-table-form-button" type="submit">
+      Oформити бронювання
+    </button>
+  </form>
+</div>
+
+<!-- MODAL - BOOK THE ROOM -->
+<div class="modal room" data-modal="2">
+  <button class="modal-close-btn js-modal-close" type="button">
+    <svg class="icon-close" width="24" height="24">
+      <use href="./images/icons-full.svg#icon-close"></use>
+    </svg>
+  </button>
+
+  <form class="moldal-form" name="booking_room_form">
+    <strong class="booking-form-title" id="modal_booking_room_form"
+      >Забронювати номер</strong
+    >
+
+    <div
+      class="booking-room-form-group"
+      role="group"
+      aria-labelledby="modal_booking_room_form"
+    >
+      <div class="booking-room-form-field">
+        <div class="booking-form-input-group">
+          <input
+            class="booking-form-input"
+            type="text"
+            name="user_name"
+            id="user_name"
+            placeholder="Ваше ім’я"
+            required
+            pattern="^[А-Яа-я]+\s[а-яА-Я]+$"
+            title="Ім'я користувача має складатися з двох слів, розділених пробілом."
+          />
+        </div>
+
+        <label class="booking-form-label" for="user_name"
+          >На кого забронювати номер&#63;</label
+        >
+      </div>
+
+      <div class="booking-room-form-field">
+        <div class="booking-form-input-group">
+          <input
+            class="booking-form-input"
+            type="tel"
+            name="user_phone"
+            id="user_phone"
+            placeholder="+38 (___) ___-__-__"
+            required
+            pattern="[0-9]{3}"
+          />
+        </div>
+
+        <label class="booking-form-label" for="user_phone"
+          >Номер телефону</label
+        >
+      </div>
+
+      <div class="booking-room-form-field">
+        <div class="booking-form-input-group">
+          <div class="select-wrapper">
+            <select
+              class="booking-select-input"
+              name="room category"
+              id="room_category"
+              title="Оберіть номер"
+            >
+              <option value="Double room">Двомісний номер</option>
+              <option value="Double lux" selected>Двомісний люкс</option>
+              <option value="Tripple rom">Трьохмісний номер</option>
+              <option value="President lux">Президентський люкс</option>
+            </select>
+          </div>
+
+          <span class="select-icon">
+            <svg class="icon" width="24" height="24">
+              <use href="./images/icons-full.svg#icon-arrow-down"></use>
+            </svg>
+          </span>
+        </div>
+
+        <label class="booking-form-label" for="room_category"
+          >Категорія номеру</label
+        >
+      </div>
+
+      <div class="booking-dates-wrapper">
+        <div class="booking-room-form-field">
+          <div class="booking-form-input-group">
+            <div class="select-wrapper">
+              <select
+                class="booking-select-input"
+                name="checkin_date"
+                id="checkin_date"
+                required
+              >
+                <option value="" selected>Сьогодні</option>
+                <option value="2">Завтра</option>
+                <option value="3">Післязавтра</option>
+                <option value="4">Наступного тижня</option>
+              </select>
+            </div>
+
+            <span class="select-icon">
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icons-full.svg#icon-arrow-down"></use>
+              </svg>
+            </span>
+          </div>
+
+          <label class="booking-form-label" for="checkin_date"
+            >Дата заїзду</label
+          >
+        </div>
+        <div class="booking-room-form-field">
+          <div class="booking-form-input-group">
+            <div class="select-wrapper">
+              <select
+                class="booking-select-input"
+                name="checkout_date"
+                id="checkout_date"
+                required
+              >
+                <option value="" selected>Сьогодні</option>
+                <option value="2">Завтра</option>
+                <option value="3">Післязавтра</option>
+                <option value="4">Наступного тижня</option>
+              </select>
+            </div>
+
+            <span class="select-icon">
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icons-full.svg#icon-arrow-down"></use>
+              </svg>
+            </span>
+          </div>
+
+          <label class="booking-form-label" for="checkout_date"
+            >Дата виїзду</label
+          >
+        </div>
+      </div>
+    </div>
+
+    <button class="booking-table-form-button" type="submit">
+      Oформити бронювання
+    </button>
+  </form>
+</div>
+
+<!-- MODAL - PRICE -->
+
+<div class="modal price" data-modal="3">
+  <button class="modal-close-btn js-modal-close" type="button">
+    <svg class="icon-close" width="24" height="24">
+      <use href="./images/icons-full.svg#icon-close"></use>
+    </svg>
+  </button>
+
+  <form class="modal-form" name="price_form">
+    <strong class="booking-form-title" id="modal_price_form"
+      >ціни на номер</strong
+    >
+
+    <div
+      class="price-form-group"
+      role="group"
+      aria-labelledby="modal_price_form"
+    >
+      <div class="price-form-field">
+        <div class="booking-form-input-group">
+          <div class="select-wrapper">
+            <select
+              class="booking-select-input price"
+              name="room category"
+              id="room_category"
+              title="Оберіть номер"
+            >
+              <option value="Double room">Двомісний номер</option>
+              <option value="Double lux" selected>Двомісний люкс</option>
+              <option value="Tripple room">Трьохмісний номер </option>
+              <option value="President lux">Президентський люкс</option>
+            </select>
+          </div>
+
+          <span class="select-icon">
+            <svg class="icon" width="24" height="24">
+              <use href="./images/icons-full.svg#icon-arrow-down"></use>
+            </svg>
+          </span>
+        </div>
+
+        <label class="booking-form-label" for="room_category"
+          >Категорія номеру</label
+        >
+      </div>
+
+      <div class="price-form-wrapper">
+        <div class="price-form-field">
+          <div class="booking-form-input-group">
+            <div class="select-wrapper">
+              <select
+                class="booking-select-input price"
+                name="number_of_days"
+                id="number_of_days"
+                title="Оберіть номер"
+              >
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+
+            <span class="select-icon">
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icons-full.svg#icon-arrow-down"></use>
+              </svg>
+            </span>
+          </div>
+
+          <label class="booking-form-label" for="number_of_days"
+            >Кількість ночей</label
+          >
+        </div>
+
+        <div class="price-form-field">
+          <div class="booking-form-input-group">
+            <input
+              class="booking-form-input price"
+              type="number"
+              name="room_price"
+              id="room_price"
+              placeholder="1000"
+            />
+          </div>
+
+          <label class="booking-form-label" for="room_price">грн</label>
+        </div>
+      </div>
+    </div>
+
+    <button class="booking-table-form-button" type="submit">
+      Забронювати номер
+    </button>
+  </form>
+</div>
+
+<!-- Backdrop for modals -->
+<div class="backdrop js-overlay-modal"></div>
