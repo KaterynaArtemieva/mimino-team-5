@@ -1,0 +1,126 @@
+// ==========HERO-ROOM=========
+
+.hero-room {
+    padding-top: 64px;
+    max-height: 740px;
+}
+
+.hero-room-overlay {
+    max-width: 414px;
+    min-height: 740px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--dark-bkg-color);
+    background-image:
+        linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
+        url(../images/mobile/main/room.jpg);
+        // ПРОВЕРИТЬ ИЗОБРАЖЕНИЕ НА 1х!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    background-size: 100% 143px, cover;
+    background-repeat: no-repeat;
+    background-position: top, center;
+
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-room-overlay {
+        background-image:
+            linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
+            url(../images/mobile/main/room.jpg);
+            // ПРОВЕРИТЬ ИЗОБРАЖЕНИЕ НА 2х!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    }
+    }
+
+    // -----адреса-----
+
+.hero-room-address {
+    margin-left: auto;
+    max-width: 210px;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+}
+
+.hero-room-address-link {
+    display: flex;
+    align-items: center;
+    padding: 8px 5px 8px 6px;
+    font-family: var(--font-fam-monserat);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.01em;
+    color: var(--accent-color);
+}
+
+.address-icon {
+    flex-shrink: 0;
+    margin-right: 8px;
+    fill: currentColor;
+}
+
+.address-text {
+    color: #e5e5e5;
+}
+
+// -----Заголовок та опис-----
+
+.hero-room-title {
+    width: 325px;
+    margin-top: 372px;
+    margin-bottom: 14px
+    ;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: calc(32/28);
+    letter-spacing: 0.05em;
+    color: var(--light-color);
+}
+
+.room-description {
+    width: 325px;
+    margin-bottom: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: calc(15/12);
+    letter-spacing: 0.02em;
+    color: var(--light-color);
+}
+
+// -----Соціальни мережі комплексу-----
+.hero-room-currents {
+    display: flex;
+}
+
+.hero-room-socail-list {
+    margin-right: 70px;
+    gap: 8px;
+}
+
+
+.hero-room-list-item {
+    display: block;
+
+
+}
+
+.hero-room-link {
+
+
+}
+
+.icon {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 13px;
+    margin-bottom: 40px;
+}
