@@ -1,0 +1,217 @@
+.about-rest {
+  padding-top: 16px;
+  padding-bottom: 23px;
+
+  @media screen and (min-width: 1024px) {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 1238px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    height: 1257px;
+  }
+}
+
+.rest-descript {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-6%);
+    margin-bottom: 0;
+  }
+}
+
+.rest-descript-pre {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--light-grey-color);
+  margin-bottom: 12px;
+  @media screen and (min-width: 1024px) {
+    font-size: 32px;
+    line-height: 1.16;
+    margin-bottom: 4px;
+  }
+}
+
+.rest-descript-title {
+  font-family: 'Film P3';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  color: var(--dark-color);
+  margin-bottom: 12px;
+  @media screen and (min-width: 1024px) {
+    font-size: 64px;
+    margin-bottom: 24px;
+  }
+}
+
+.rest-descript-text {
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--hotel-main-color);
+  margin-bottom: 28px;
+  display: flex;
+  width: 258px;
+  height: auto;
+  @media screen and (min-width: 1024px) {
+    width: 439px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 518px;
+  }
+}
+
+.chief {
+  width: 293px;
+  height: 322px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  margin-left: auto;
+
+  @media screen and (min-width: 1024px) {
+    width: 400px;
+    height: 524px;
+    margin-left: 26px;
+    margin-right: 26px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 460px;
+    height: 574px;
+    box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+    margin-right: 31px;
+    margin-left: 31px;
+  }
+}
+
+.rest-promote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+  @media screen and (min-width: 1024px) {
+    transform: translateY(-12%);
+    margin-bottom: 0;
+    justify-content: flex-start;
+  }
+  @media screen and (min-width: 1280px) {
+    transform: translateY(-18%);
+  }
+}
+
+.rest-promote-card {
+  width: 200px;
+  height: 278px;
+  margin-right: 20px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  @media screen and (min-width: 1024px) {
+    width: 350px;
+    height: 500px;
+    margin-right: 32px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 460px;
+    height: 574px;
+  }
+}
+
+.rest-promote-text {
+  width: 163px;
+  color: var(--last-accent-color);
+  @media screen and (min-width: 1024px) {
+    width: 312px;
+  }
+}
+
+.rest-img-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 28px;
+  transform: translateX(15px);
+  @media screen and (min-width: 1024px) {
+    transform: translateX(0);
+    margin-bottom: 36px;
+  }
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 48px;
+  }
+}
+
+.img-list {
+  @media screen and (min-width: 1024px) {
+    transform: translateY(-25%);
+  }
+  @media screen and (min-width: 1280px) {
+    transform: translateY(-75%);
+  }
+}
+
+.rest-img-item {
+  &:not(:last-child) {
+    margin-right: 24px;
+  }
+  @media screen and (min-width: 1024px) {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+}
+
+.rest-img-cooking {
+  width: 245px;
+  height: 245px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  @media screen and (min-width: 1024px) {
+    width: 194px;
+    height: 194px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 254px;
+    height: 254px;
+  }
+}
+
+.rest-img-meal {
+  width: 60px;
+  height: 245px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  @media screen and (min-width: 1024px) {
+    width: 194px;
+    height: 194px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 254px;
+    height: 254px;
+  }
+}
+
+.arrow-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.arrow-icon-rest {
+  display: block;
+  fill: var(--dark-color);
+  width: 32px;
+  height: 32px;
+}
+
+.arrow-item {
+  &:not(:last-child) {
+    margin-right: 33px;
+  }
+}
