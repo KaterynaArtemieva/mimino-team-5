@@ -157,9 +157,9 @@
 .header-nav-contact:hover,
 .header-nav-contact:focus,
 .header-nav-contact:active {
-  background-color: var(--accent-color);
-}
-
+  background-color: var(--last-accent-color);
+  }
+  
 .header-nav-phone-number {
   display: none;
   font-size: 14px;
