@@ -1,0 +1,186 @@
+.details-restaurant {
+  padding-top: 24px;
+  padding-bottom: 40px;
+
+  @media screen and (min-width: 1024px) {
+    padding-top: 48px;
+  }
+
+  &--background {
+    max-width: 414px;
+    min-height: 735px;
+    margin: 0 auto;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../images/mobile/main/details-bg-mobile.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../images/mobile/main/details-bg-mobile@2x.jpg);
+    }
+
+    @media screen and (min-width: 1024px) {
+      max-width: 1024px;
+      min-height: 620px;
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../images/tablet/main/details-bg-tablet.jpg);
+
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+          ),
+          url(../images/tablet/main/details-bg-tablet@2x.jpg);
+      }
+    }
+
+    @media screen and (min-width: 1280px) {
+      max-width: 1280px;
+      min-height: 620px;
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../images/desktop/main/details-bg-desk.jpg);
+
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+          ),
+          url(../images/desktop/main/details-bg-desk.jpg);
+      }
+    }
+  }
+
+  &__dis {
+    margin-left: 125px;
+    margin-bottom: 48px;
+
+    @media screen and (min-width: 1024px) {
+      margin-left: 231px;
+      margin-bottom: 40px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      margin-left: 253px;
+    }
+  }
+
+  &__dis-title {
+    font-family: 'Film P3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.075;
+
+    letter-spacing: 0.3em;
+    color: white;
+
+    margin-bottom: 12px;
+
+    @media screen and (min-width: 1024px) {
+      font-size: 64px;
+      margin-bottom: 16px;
+      line-height: 1.078;
+    }
+  }
+
+  &__dis-type {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+
+    letter-spacing: 0.02em;
+    color: white;
+
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1024px) {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+  }
+
+  &__dis-p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+
+    letter-spacing: 0.02em;
+    color: #bababa;
+
+    max-width: 259px;
+
+    @media screen and (min-width: 1024px) {
+      line-height: 1.75;
+      font-size: 16px;
+      max-width: 610px;
+    }
+  }
+
+  &__swiper {
+    @media screen and (max-width: 1023.98px) {
+      margin-bottom: 32px;
+    }
+  }
+
+  &__flexbox {
+    @media screen and (min-width: 1024px) {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+.swiper-wrapper.rest-details {
+  flex-direction: row;
+}
+@media screen and (max-width: 1023.98px) {
+  .swiper-wrapper.rest-details {
+    transform: translateX(15px);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .swiper-wrapper.rest-details {
+    transform: translateX(33px);
+  }
+}
+
+.details-button-list.rest-details {
+  align-items: flex-start;
+}
+.arrow-list.rest-details {
+  margin-right: 0;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 1023.98px) {
+  .arrow-list.rest-details {
+    margin-left: 25px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .arrow-list.rest-details {
+    margin-left: 33px;
+  }
+}

@@ -1,0 +1,283 @@
+.details-hotel {
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+@media screen and (min-width: 1024px) {
+  .details-hotel {
+  padding-top: 48px;
+}
+}
+
+.details-hotel.overlay {
+  max-width: 414px;
+  min-height: 735px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+    url(../images/mobile/main/bgc-hotel-description-mob@1x.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .details-hotel.overlay{
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+      url(../images/mobile/main/bgc-hotel-description-mob@2x.jpg);
+  }
+}
+/* tablet screen */
+@media screen and (min-width: 1024px) {
+  .details-hotel.overlay{
+    max-width: 1024px;
+    min-height: 620px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+      url(../images/tablet/main/bgc-hotel-description-tab@1x.jpg);
+  }
+}
+@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
+  (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
+  (min-width: 1024px) and (min-resolution: 192dpi),
+  (min-width: 1024px) and (min-resolution: 2dppx) {
+  .details-hotel.overlay{
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+      url(../images/tablet/main/bgc-hotel-description-tab@2x.jpg);
+  }
+}
+/* desk screen  */
+@media screen and (min-width: 1280px) {
+  .details-hotel.overlay{
+    max-width: 1280px;
+    min-height: 620px;
+
+    background-image: linear-gradient(
+        to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+      url(../images/desktop/main/bgc-hotel-description-desk@1x.jpg);
+  }
+}
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+  (min-width: 1280px) and (min-resolution: 192dpi),
+  (min-width: 1280px) and (min-resolution: 2dppx) {
+  .details-hotel.overlay{
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+      url(../images/desktop/main/bgc-hotel-description-desk@2x.jpg);
+  }
+}
+
+.details-hotel-title-wrapper {
+  margin-bottom: 48px;
+  margin-right: 129px;
+}
+
+@media screen and (min-width: 1024px) {
+  .details-hotel-title-wrapper {
+  margin-bottom: 40px; 
+  margin-right: 231px;
+}
+}
+@media screen and (min-width: 1280px) {
+  .details-hotel-title-wrapper {
+  margin-bottom: 40px; 
+  margin-right: 253px;
+}
+}
+
+
+.details-name {
+  margin-bottom: 12px;
+  
+  font-family: 'Film P3', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+
+  color: var(--light-color);
+}
+.details-name.hotel {
+  text-indent: -0.3em;
+  direction: rtl;
+}
+@media screen and (min-width: 1024px) {
+  .details-name {
+  margin-bottom: 16px;
+
+  font-size: 64px;
+
+}
+}
+
+.details-title {
+  margin-bottom: 20px;
+
+font-family: 'Montserrat', sans-serif;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.02em;
+
+color: var(--light-color);
+}
+.details-title.hotel {
+  text-align: right;
+ 
+}
+@media screen and (min-width: 1024px) {
+  .details-name {
+  margin-bottom: 8px;
+}
+}
+
+
+.details-text {
+font-family: 'Montserrat',sans-serif;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.25;
+
+color: #BABABA;
+}
+.details-text.hotel {
+   max-width: 243px;
+   margin-left: auto;
+}
+@media screen and (min-width: 1024px) {
+  .details-text {
+  font-size: 16px;
+}
+.details-text.hotel {
+   max-width: 549px;
+   ;
+}
+}
+
+.details-bottom-side {
+  display: flex;
+}
+@media screen and (max-width: 1023.98px) {
+  .details-bottom-side {
+   flex-direction: column;
+}
+.details-swiper-container {
+  margin-bottom: 32px;
+}
+}
+
+
+.swiper-wrapper {
+  margin-bottom: 16px;
+  
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 20px;
+  
+  
+}
+@media screen and (max-width: 1023.98px) {
+  .swiper-wrapper {
+  transform: translateX(-15px);
+}
+}
+@media screen and (min-width: 1024px) {
+  .swiper-wrapper {
+    margin-bottom: 24px;
+    gap: 34px; 
+}
+}
+@media screen and (min-width: 1280px) {
+  .swiper-wrapper {
+    gap: 86px; 
+    transform: translateX(-33px);
+}
+}
+
+
+@media screen and (max-width: 1023.98px) {
+  .swiper-slide.none {
+  display: none;
+}
+}
+
+.arrow-list.toright {
+  justify-content: flex-end;
+  
+}
+@media screen and (max-width: 1023.98px) {
+  .arrow-list.toright {
+  margin-right: 25px;
+}
+}
+@media screen and (min-width: 1280px) {
+  .arrow-list.toright {
+  margin-right: 33px;
+}
+}
+
+.icon-arrow-left > .light, 
+.icon-arrow-right > .light {
+color: var(--light-color);
+}
+.slider-icon-light {
+  fill: currentColor;
+}
+  
+.details-button-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  gap: 16px;
+}
+@media screen and (min-width: 1024px) {
+  .details-button-list {
+    margin-top: auto;
+    margin-bottom: 60px;
+    flex-grow: 1;
+    align-items: flex-end;;
+}
+}
+
+.details-button {
+  display: inline-block;
+  padding: 14px 24px;
+  min-width: 236px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: inherit;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--accent-color);
+
+  background-color: var(--btn-bkg-color);
+  border: 2px solid var(--light-color);
+  border-radius: 25px;
+
+  cursor: pointer;
+
+  transition-property: background-color, color, border-color;
+  transition-duration: var(--timing-duration);
+  transition-timing-function: var(--timing-function);
+}
+
+.details-button:hover,
+.details-button:focus,
+.details-button:active {
+  background-color: var(--light-color);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
