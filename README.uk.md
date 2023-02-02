@@ -86,7 +86,7 @@ Pages, в ветку `gh-pages`, каждый раз когда обновляе
 всего у тебя неправильное значение свойства `homepage` или скрипта `build` в
 файле `package.json`.
 
-## Как это работает
+## Як це працює
 
 ![How it works](./assets/how-it-works.png)
 
