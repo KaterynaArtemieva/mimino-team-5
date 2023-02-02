@@ -12,15 +12,12 @@ img {
 @media screen and (min-width: 1024px) {
   .container-hotel {
     width: 1024px;
-    // padding: 62px 15px 40px 15px;
   } 
 }
 
 @media screen and (min-width: 1280px) {
   .container-hotel {
     width: 1280px;
-    // margin: 0;
-    // padding: 72px 85px 40px 85px;
   } 
 }
 
@@ -199,6 +196,7 @@ img {
   .bed-table {
     width: 194px;
     height: 194px;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   }
 }
 
@@ -220,6 +218,7 @@ img {
    margin-left: 40px;
    width: 194px;
    height: 194px;
+   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   }
 }
 
