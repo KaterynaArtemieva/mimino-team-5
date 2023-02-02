@@ -51,6 +51,8 @@
             url(../images/tablet/hotel/bgc-hotel@1x.jpg);
         background-size: 100% 116px, cover;
     }
+
+
 }
 @media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
 (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
@@ -81,6 +83,23 @@
         background-image:
             linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
             url(../images/desktop/hotel/bgc-hotel@2x.jpg);
+    }
+}
+
+// ==========tablet screen==========
+@media screen and (min-width: 1024px) {
+    // .hero-room .content {
+    //     display: block;
+    //     align-items: flex-end;
+    // }
+
+
+
+
+    .hero-room .wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
     }
 }
 
@@ -117,9 +136,14 @@
 
 // -----Заголовок та опис-----
 
-.hero-room-content {
+// ==========tablet screen==========
+@media screen and (min-width: 1024px) {
+    .hero-room-content {
+        position: absolute;
 
+    }
 }
+
 
 .hero-room-title {
     width: 325px;
@@ -159,12 +183,9 @@
 }
 
 
-.hero-room-list-item {
+// .hero-room-list-item {
     
-
-
-
-}
+// }
 
 .hero-room-link {
     display: block;
