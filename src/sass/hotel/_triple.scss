@@ -173,7 +173,7 @@
     text-decoration: none;
     background-color: var(--black-color);
     border-radius: 25px;
-    border: none;
+    border: 1px solid var(--light-color);
     color: var(--accent-color);
     font-family: Montserrat;
     font-size: 16px;
@@ -182,8 +182,10 @@
     letter-spacing: 0.02em;
     text-align: center;
     cursor: pointer;
-    transition: opacity var( --transition-duration-and-fun),
-    background-color var( --transition-duration-and-fun);
+    transition: border var(--timing-duration),
+    border var (--timing-function),
+    background-color var(--timing-duration),
+    background-color var(--timing-function);
 
 }
 
@@ -196,7 +198,16 @@
     padding: 14px 35px;
 }
  
+// hover-focus
 
+.btn-triple:hover,
+.btn-triple:focus {
+    color: var(--accent-color);
+    background-color: var(--light-color);
+    border: 1px solid var(--accent-color);
+
+}
+// hover-focus
 
 /* ======================= MOBILE ======================= */
 
