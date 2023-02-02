@@ -247,6 +247,7 @@ img {
 
 .icon-arrow-left {
   margin-right: 32px;
+  color: var(--black-color);
 }
 
 @media screen and (min-width: 1024px) {
@@ -310,4 +311,18 @@ img {
     margin-left: 326px;
     margin-top: 71px;
   }
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  background: var(--light-color);
+  border: 2px solid var(--accent-color);
+  border-radius: 25px;
+}
+
+.first:hover,
+.first:focus {
+  background: var(--light-color);
+  border: 2px solid var(--accent-color);
+  border-radius: 25px;
 }
