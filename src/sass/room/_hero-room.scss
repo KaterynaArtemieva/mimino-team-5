@@ -1,5 +1,3 @@
-// ==========HERO-ROOM=========
-
 .hero-room {
     padding-top: 64px;
 }
@@ -10,13 +8,11 @@
         padding-bottom: 22px;
     }
 }
-// @media screen and (min-width: 1280px) {
-//     .hero-room {
-//         padding-top: 164px;
-//         padding-bottom: 64px;
-//     }
-// }
-
+@media screen and (min-width: 1280px) {
+    .hero-room {
+        padding-top: 147px;
+    }
+}
 
 .hero-room-overlay {
     max-width: 414px;
@@ -41,7 +37,7 @@
             url(../images/mobile/hotel/bgc-hotel@2x.jpg);
     }
 }
-// ==========tablet screen==========
+
 @media screen and (min-width: 1024px) {
     .hero-room-overlay {
         max-width: 1024px;
@@ -62,8 +58,8 @@
             url(../images/tablet/hotel/bgc-hotel@2x.jpg);
     }
 }
-// ==========desktop screen==========
-@media screen and (min-width: 1024px) {
+
+@media screen and (min-width: 1280px) {
     .hero-room-overlay {
         max-width: 1280px;
         min-height: 720px;
@@ -73,7 +69,7 @@
         background-size: 100% 147px, cover;
     }
 }
-@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
 (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
 (min-width: 1024px) and (min-resolution: 192dpi),
 (min-width: 1024px) and (min-resolution: 2dppx) {
@@ -84,46 +80,74 @@
     }
 }
 
-    // -----адреса-----
-
 .hero-room-address {
-    margin-left: auto;
     max-width: 210px;
-    border: 1px solid rgba(243, 198, 83, 0.7);
-    border-radius: 2px;
+    margin-left: auto;
+    margin-bottom: 372px;
 }
 
 .hero-room-address-link {
     display: flex;
     align-items: center;
-    padding: 8px 5px 8px 6px;
+    padding: 8px 5px 7px 6px;
     font-family: var(--font-fam-monserat);
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.25;
+    line-height: calc(15/12);
     letter-spacing: 0.01em;
     color: var(--accent-color);
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
 }
 
 .address-icon {
+    width: 20px;
+    height: 20px;
     flex-shrink: 0;
     margin-right: 8px;
     fill: currentColor;
 }
 
 .address-text {
-    color: #e5e5e5;
+    color: #E5E5E5;
 }
 
-// -----Заголовок та опис-----
-
-.hero-room-content {
-
+@media screen and (min-width: 1024px) {
+    .hero-room-address {
+        position: absolute;
+        bottom: 22px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        max-width: 285px;
+    }
+    .hero-room-address-link {
+        padding: 7px 8px 7px 10px;
+        font-size: 16px;
+    }
+    .address-icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+    }
 }
+
+@media screen and (min-width: 1280px) {
+    .hid {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
+    }
 
 .hero-room-title {
     width: 325px;
-    margin-top: 372px;
     margin-bottom: 14px;
     font-family: 'Times New Roman';
     font-style: normal;
@@ -146,7 +170,28 @@
     color: var(--light-color);
 }
 
-// -----Соціальни мережі комплексу-----
+@media screen and (min-width: 1024px) {
+    .hero-room-title {
+        width: 509px;
+        margin-top: 368px;
+        margin-bottom: 24px;
+        font-size: 36px;
+        line-height: calc(41/36);
+    }
+    .room-description {
+        width: 400px;
+        margin-bottom: 24px;
+        font-size: 16px;
+        line-height: calc(20/16);
+    }
+}
+@media screen and (min-width: 1280px) {
+    .hero-room-title {
+        margin-top: 377px;
+        margin-bottom: 24px;
+    }
+}
+
 .hero-room-currents {
     display: flex;
 }
@@ -158,27 +203,22 @@
     margin-right: 70px;
 }
 
-
-.hero-room-list-item {
-    
-
-
-
-}
-
 .hero-room-link {
     display: block;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
-    color: rgba(243, 198, 83, 0.7);
-    transition: transform var(--timing-duration) var(--timing-function);
+    color: rgba(243, 198, 83, 0.70);
+    transition: 
+    transform var(--timing-duration) var(--timing-function), 
+    color var(--timing-duration) var(--timing-function);
     }
 
 .hero-room-link:hover,
 .hero-room-link:focus,
 .hero-room-link:active {
     transform: scale(1.1);
+    color: var(--accent-color);
 }
 
 .hero-room-social-icon {
@@ -186,7 +226,23 @@
     justify-content: center;
     align-items: center;
     fill: currentColor;
+}
 
+@media screen and (min-width: 1024px) {
+    .hero-room-currents {
+        margin-left: 325px;
+    }
+    .hero-room-socail-list {
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 18px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-room-socail-list {
+        display: none;
+    }
 }
 
 .hero-room-btn {
@@ -196,14 +252,12 @@
     margin-top: 13px;
     margin-bottom: 40px;
     padding: 12px 35px;
-    min-width: 228px;
+    min-width: 232px;
 
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(20/16);
-    letter-spacing: 0.02em;
     color: var(--accent-color);
     background: var(--btn-bkg-color);
     border: 2px solid var(--light-color);
@@ -216,4 +270,20 @@
     background-color: var(--light-color);
     color: var(--accent-color);
     border-color: var(--accent-color);
+}
+
+@media screen and (min-width: 1024px) {
+.hero-room-btn {
+    position: absolute;
+    right: 47px;
+    bottom: 62px;
+    margin: 0;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .hero-room-btn {
+        position: absolute;
+        right: 85px;
+        bottom: 66px;
+    }
 }
