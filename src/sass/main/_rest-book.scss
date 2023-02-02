@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(../images/details-restaurant/details-bg-mobile.jpg);
+      url(../images/mobile/main/details-bg-mobile.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -25,7 +25,7 @@
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(../images/details-restaurant/details-bg-mobile@2x.jpg);
+        url(../images/mobile/main/details-bg-mobile@2x.jpg);
     }
 
     @media screen and (min-width: 1024px) {
@@ -35,7 +35,7 @@
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(../images/details-restaurant/details-bg-tablet.jpg);
+        url(../images/tablet/main/details-bg-tablet.jpg);
 
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -44,7 +44,7 @@
             rgba(0, 0, 0, 0.65),
             rgba(0, 0, 0, 0.65)
           ),
-          url(../images/details-restaurant/details-bg-tablet@2x.jpg);
+          url(../images/tablet/main/details-bg-tablet@2x.jpg);
       }
     }
 
@@ -55,7 +55,7 @@
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(../images/details-restaurant/details-bg-desk.jpg);
+        url(../images/desktop/main/details-bg-desk.jpg);
 
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -64,7 +64,7 @@
             rgba(0, 0, 0, 0.65),
             rgba(0, 0, 0, 0.65)
           ),
-          url(../images/details-restaurant/details-bg-desk.jpg);
+          url(../images/desktop/main/details-bg-desk.jpg);
       }
     }
   }
