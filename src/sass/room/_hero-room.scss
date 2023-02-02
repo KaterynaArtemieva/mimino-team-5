@@ -1,5 +1,3 @@
-// ==========HERO-ROOM=========
-
 .hero-room {
     padding-top: 64px;
 }
@@ -39,7 +37,7 @@
             url(../images/mobile/hotel/bgc-hotel@2x.jpg);
     }
 }
-// ==========tablet screen==========
+
 @media screen and (min-width: 1024px) {
     .hero-room-overlay {
         max-width: 1024px;
@@ -60,7 +58,7 @@
             url(../images/tablet/hotel/bgc-hotel@2x.jpg);
     }
 }
-// ==========desktop screen==========
+
 @media screen and (min-width: 1280px) {
     .hero-room-overlay {
         max-width: 1280px;
@@ -82,7 +80,6 @@
     }
 }
 
-    // -----адреса-----
 .hero-room-address {
     max-width: 210px;
     margin-left: auto;
@@ -149,7 +146,6 @@
         }
     }
 
-// -----Заголовок та опис-----
 .hero-room-title {
     width: 325px;
     margin-bottom: 14px;
@@ -196,7 +192,6 @@
     }
 }
 
-// -----Соціальни мережі комплексу-----
 .hero-room-currents {
     display: flex;
 }
@@ -213,14 +208,17 @@
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
-    color: rgba(243, 198, 83, 0.7);
-    transition: transform var(--timing-duration) var(--timing-function);
+    color: rgba(243, 198, 83, 0.70);
+    transition: 
+    transform var(--timing-duration) var(--timing-function), 
+    color var(--timing-duration) var(--timing-function);
     }
 
 .hero-room-link:hover,
 .hero-room-link:focus,
 .hero-room-link:active {
     transform: scale(1.1);
+    color: var(--accent-color);
 }
 
 .hero-room-social-icon {
@@ -247,7 +245,6 @@
     }
 }
 
-// =====BUTTON=====
 .hero-room-btn {
     display: block;
     text-align: center;
