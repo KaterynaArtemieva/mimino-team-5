@@ -102,7 +102,7 @@
   text-align: center;
 
   font-family: 'Film P3', sans-serif;
-  font-size: 96px;
+  font-size: 90px;
   line-height: 1.08;
   letter-spacing: 0.3em;
   text-transform: uppercase;
@@ -111,6 +111,12 @@
   direction: rtl;
 
   color: var(--light-color);
+}
+@media screen and (min-width: 414px) {
+  .hero-title {
+    margin-bottom: 16px;
+    font-size: 96px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .hero-title {
