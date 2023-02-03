@@ -124,6 +124,12 @@ img {
   margin: 32px 15px 32px 140px;
 }
 
+@media screen and (max-width: 320px) {
+  .apartment-double {
+    margin-left: 46px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .apartment-double {
     margin: 0;
@@ -277,6 +283,18 @@ img {
   margin-left: 80px;
 }
 
+@media screen and (max-width: 320px) {
+  .hotel-button-item {
+    margin-left: 54px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hotel-button-item {
+    margin: 0;
+  }
+}
+
 .btn {
   width: 236px;
   height: 48px;
@@ -294,12 +312,6 @@ img {
 
 .btn-link {
   margin-bottom: 16px;
-}
-
-@media screen and (min-width: 1024px) {
-  .hotel-button-item {
-    margin: 0;
-  }
 }
 
 @media screen and (min-width: 1024px) {
