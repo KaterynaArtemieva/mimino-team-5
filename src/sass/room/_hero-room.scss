@@ -1,289 +1,320 @@
 .hero-room {
-    padding-top: 64px;
+  padding-top: 64px;
 }
 @media screen and (min-width: 1024px) {
-    .hero-room {
-        position: relative;
-        padding-top: 100px;
-        padding-bottom: 22px;
-    }
+  .hero-room {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 22px;
+  }
 }
 @media screen and (min-width: 1280px) {
-    .hero-room {
-        padding-top: 147px;
-    }
+  .hero-room {
+    padding-top: 147px;
+  }
 }
 
 .hero-room-overlay {
-    max-width: 414px;
-    min-height: 740px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: var(--dark-bkg-color);
-    background-image:
-        linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
-        url(../images/mobile/hotel/bgc-hotel@1x.jpg);
-    background-size: 100% 143px, cover;
-    background-repeat: no-repeat;
-    background-position: top, center;
+  max-width: 414px;
+  min-height: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--dark-bkg-color);
+  background-image: linear-gradient(
+      to bottom,
+      #000000,
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0)
+    ),
+    url(../images/mobile/hotel/bgc-hotel@1x.jpg);
+  background-size: 100% 143px, cover;
+  background-repeat: no-repeat;
+  background-position: top, center;
 }
 @media screen and (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-room-overlay {
-        background-image:
-            linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
-            url(../images/mobile/hotel/bgc-hotel@2x.jpg);
-    }
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-room-overlay {
+    background-image: linear-gradient(
+        to bottom,
+        #000000,
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0)
+      ),
+      url(../images/mobile/hotel/bgc-hotel@2x.jpg);
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .hero-room-overlay {
-        max-width: 1024px;
-        min-height: 720px;
-        background-image: 
-            linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
-            url(../images/tablet/hotel/bgc-hotel@1x.jpg);
-        background-size: 100% 116px, cover;
-    }
+  .hero-room-overlay {
+    max-width: 1024px;
+    min-height: 720px;
+    background-image: linear-gradient(
+        to bottom,
+        #000000,
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0)
+      ),
+      url(../images/tablet/hotel/bgc-hotel@1x.jpg);
+    background-size: 100% 116px, cover;
+  }
 }
 @media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
-(min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
-(min-width: 1024px) and (min-resolution: 192dpi),
-(min-width: 1024px) and (min-resolution: 2dppx) {
-    .hero-room-overlay {
-        background-image: 
-            linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
-            url(../images/tablet/hotel/bgc-hotel@2x.jpg);
-    }
+  (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
+  (min-width: 1024px) and (min-resolution: 192dpi),
+  (min-width: 1024px) and (min-resolution: 2dppx) {
+  .hero-room-overlay {
+    background-image: linear-gradient(
+        to bottom,
+        #000000,
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0)
+      ),
+      url(../images/tablet/hotel/bgc-hotel@2x.jpg);
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .hero-room-overlay {
-        max-width: 1280px;
-        min-height: 720px;
-        background-image:
-            linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
-            url(../images/desktop/hotel/bgc-hotel@1x.jpg);
-        background-size: 100% 147px, cover;
-    }
+  .hero-room-overlay {
+    max-width: 1280px;
+    min-height: 720px;
+    background-image: linear-gradient(
+        to bottom,
+        #000000,
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0)
+      ),
+      url(../images/desktop/hotel/bgc-hotel@1x.jpg);
+    background-size: 100% 147px, cover;
+  }
 }
 @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
-(min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
-(min-width: 1024px) and (min-resolution: 192dpi),
-(min-width: 1024px) and (min-resolution: 2dppx) {
-    .hero-room-overlay {
-        background-image:
-            linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)),
-            url(../images/desktop/hotel/bgc-hotel@2x.jpg);
-    }
+  (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
+  (min-width: 1024px) and (min-resolution: 192dpi),
+  (min-width: 1024px) and (min-resolution: 2dppx) {
+  .hero-room-overlay {
+    background-image: linear-gradient(
+        to bottom,
+        #000000,
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0)
+      ),
+      url(../images/desktop/hotel/bgc-hotel@2x.jpg);
+  }
 }
 
 .hero-room-address {
-    max-width: 210px;
-    margin-left: auto;
-    margin-bottom: 372px;
+  max-width: 210px;
+  margin-left: auto;
+  margin-bottom: 372px;
 }
 
 .hero-room-address-link {
-    display: flex;
-    align-items: center;
-    padding: 8px 5px 7px 6px;
-    font-family: var(--font-fam-monserat);
-    font-weight: 400;
-    font-size: 12px;
-    line-height: calc(15/12);
-    letter-spacing: 0.01em;
-    color: var(--accent-color);
-    border: 1px solid rgba(243, 198, 83, 0.7);
-    border-radius: 2px;
+  display: flex;
+  align-items: center;
+  padding: 8px 5px 7px 6px;
+  font-family: var(--font-fam-monserat);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  letter-spacing: 0.01em;
+  color: var(--accent-color);
+  border: 1px solid rgba(243, 198, 83, 0.7);
+  border-radius: 2px;
 }
 
 .address-icon {
-    width: 20px;
-    height: 20px;
-    flex-shrink: 0;
-    margin-right: 8px;
-    fill: currentColor;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-right: 8px;
+  fill: currentColor;
 }
 
 .address-text {
-    color: #E5E5E5;
+  color: #e5e5e5;
 }
 
 @media screen and (min-width: 1024px) {
-    .hero-room-address {
-        position: absolute;
-        bottom: 22px;
-        margin-left: 0px;
-        margin-bottom: 0px;
-        max-width: 285px;
-    }
-    .hero-room-address-link {
-        padding: 7px 8px 7px 10px;
-        font-size: 16px;
-    }
-    .address-icon {
-        width: 24px;
-        height: 24px;
-        margin-right: 10px;
-    }
+  .hero-room-address {
+    position: absolute;
+    bottom: 22px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    max-width: 285px;
+  }
+  .hero-room-address-link {
+    padding: 7px 8px 7px 10px;
+    font-size: 16px;
+  }
+  .address-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .hid {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            border: 0;
-            padding: 0;
-            white-space: nowrap;
-            clip-path: inset(100%);
-            clip: rect(0 0 0 0);
-            overflow: hidden;
-        }
-    }
+  .hid {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
 
 .hero-room-title {
-    width: 325px;
-    margin-bottom: 14px;
-    font-family: 'Times New Roman';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: calc(32/28);
-    letter-spacing: 0.05em;
-    color: var(--light-color);
+  width: 325px;
+  margin-bottom: 14px;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: calc(32 / 28);
+  letter-spacing: 0.05em;
+  color: var(--light-color);
 }
 
 .room-description {
+  margin-bottom: 17px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  letter-spacing: 0.02em;
+  color: var(--light-color);
+}
+@media screen and (min-width: 414px) {
+  .hero-room-title {
+    font-size: 28px;
+  }
+  .room-description {
     width: 325px;
-    margin-bottom: 17px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
     font-size: 12px;
-    line-height: calc(15/12);
-    letter-spacing: 0.02em;
-    color: var(--light-color);
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .hero-room-title {
-        width: 509px;
-        margin-top: 368px;
-        margin-bottom: 24px;
-        font-size: 36px;
-        line-height: calc(41/36);
-    }
-    .room-description {
-        width: 400px;
-        margin-bottom: 24px;
-        font-size: 16px;
-        line-height: calc(20/16);
-    }
+  .hero-room-title {
+    width: 509px;
+    margin-top: 368px;
+    margin-bottom: 24px;
+    font-size: 36px;
+    line-height: calc(41 / 36);
+  }
+  .room-description {
+    width: 400px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+  }
 }
 @media screen and (min-width: 1280px) {
-    .hero-room-title {
-        margin-top: 377px;
-        margin-bottom: 24px;
-    }
+  .hero-room-title {
+    margin-top: 377px;
+    margin-bottom: 24px;
+  }
 }
 
 .hero-room-currents {
-    display: flex;
+  display: flex;
 }
 
 .hero-room-socail-list {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .hero-room-link {
-    display: block;
-    background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
-    color: rgba(243, 198, 83, 0.70);
-    transition: 
-    transform var(--timing-duration) var(--timing-function), 
+  display: block;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  color: rgba(243, 198, 83, 0.7);
+  transition: transform var(--timing-duration) var(--timing-function),
     color var(--timing-duration) var(--timing-function);
-    }
+}
 
 .hero-room-link:hover,
 .hero-room-link:focus,
 .hero-room-link:active {
-    transform: scale(1.1);
-    color: var(--accent-color);
+  transform: scale(1.1);
+  color: var(--accent-color);
 }
 
 .hero-room-social-icon {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    fill: currentColor;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  fill: currentColor;
 }
 
 @media screen and (min-width: 1024px) {
-    .hero-room-currents {
-        margin-left: 325px;
-    }
-    .hero-room-socail-list {
-        flex-direction: row;
-        gap: 20px;
-        margin-top: 18px;
-    }
+  .hero-room-currents {
+    margin-left: 325px;
+  }
+  .hero-room-socail-list {
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 18px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .hero-room-socail-list {
-        display: none;
-    }
+  .hero-room-socail-list {
+    display: none;
+  }
 }
 
 .hero-room-btn {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 
-    margin-top: 13px;
-    margin-bottom: 40px;
-    padding: 12px 35px;
-    min-width: 232px;
+  margin-top: 13px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  padding: 12px 35px;
+  min-width: 232px;
 
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(20/16);
-    color: var(--accent-color);
-    background: var(--btn-bkg-color);
-    border: 2px solid var(--light-color);
-    border-radius: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: var(--accent-color);
+  background: var(--btn-bkg-color);
+  border: 2px solid var(--light-color);
+  border-radius: 25px;
 }
 
 .hero-room-btn:hover,
 .hero-room-btn:focus,
 .hero-room-btn:active {
-    background-color: var(--light-color);
-    color: var(--accent-color);
-    border-color: var(--accent-color);
+  background-color: var(--light-color);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 @media screen and (min-width: 1024px) {
-.hero-room-btn {
+  .hero-room-btn {
     position: absolute;
     right: 47px;
     bottom: 62px;
     margin: 0;
-    }
+  }
 }
 @media screen and (min-width: 1280px) {
-    .hero-room-btn {
-        position: absolute;
-        right: 85px;
-        bottom: 66px;
-    }
+  .hero-room-btn {
+    position: absolute;
+    right: 85px;
+    bottom: 66px;
+  }
 }
