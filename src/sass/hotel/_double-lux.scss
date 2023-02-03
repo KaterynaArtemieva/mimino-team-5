@@ -74,6 +74,7 @@ img {
 }
 
 .section-title {
+  width: 338px;
   margin-top: 32px;
   font-family: 'Times New Roman';
   font-weight: 700;
@@ -85,6 +86,7 @@ img {
 
 @media screen and (min-width: 1024px) {
   .section-title {
+    width: 423px;
     margin-top: 62px;
     font-size: 30px;
     line-height: 1.13;
@@ -93,6 +95,7 @@ img {
 
 @media screen and (min-width: 1280px) {
   .section-title {
+    min-width: 507px;
     font-size: 36px;
     line-height: 1.14;
   }
@@ -121,6 +124,12 @@ img {
 .apartment {
   width: 244px;
   margin: 32px 15px 32px 140px;
+}
+
+@media screen and (max-width: 320px) {
+  .apartment {
+    margin-left: 46px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -268,10 +277,6 @@ img {
   margin: 0;
 }
 
-.hotel-button-item {
-  margin-left: 80px;
-}
-
 .btn {
   width: 236px;
   height: 48px;
@@ -289,6 +294,16 @@ img {
 
 .btn-link {
   margin-bottom: 16px;
+}
+
+.hotel-button-item {
+  margin-left: 80px;
+}
+
+@media screen and (max-width: 320px) {
+  .hotel-button-item {
+    margin-left: 54px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
