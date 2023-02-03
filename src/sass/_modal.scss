@@ -30,6 +30,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(1);
+  overflow: scroll;
 
   padding: 60px 15px;
 
@@ -45,6 +46,7 @@
 @media screen and (min-width: 1024px) {
   .modal {
     padding: 60px;
+    max-height: calc(100vh - 100px);
   }
 }
 .modal.active,
@@ -55,7 +57,8 @@
 
 .modal.table {
   width: 712px;
-  height: 522px;
+  height: 523px;
+  
 }
 @media screen and (max-width: 1023.98px) {
   .modal.table {
