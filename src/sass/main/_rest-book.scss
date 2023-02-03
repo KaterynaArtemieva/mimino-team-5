@@ -167,8 +167,15 @@
   }
 }
 
+
 .details-button-list.rest-details {
-  align-items: flex-start;
+  align-items: center;
+}
+@media screen and (min-width: 1280px) {
+  .swiper-wrapper.rest-details {
+    transform: translateX(33px);
+    align-items: flex-start;
+  }
 }
 .arrow-list.rest-details {
   margin-right: 0;
