@@ -30,7 +30,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(1);
-  overflow: scroll;
+  overflow: auto;
 
   padding: 60px 15px;
 
@@ -46,7 +46,7 @@
 @media screen and (min-width: 1024px) {
   .modal {
     padding: 60px;
-    max-height: calc(100vh - 100px);
+    
   }
 }
 .modal.active,
@@ -58,7 +58,8 @@
 .modal.table {
   width: 712px;
   height: 523px;
-  
+   max-height: calc(100vh - 100px);
+ 
 }
 @media screen and (max-width: 1023.98px) {
   .modal.table {
@@ -257,6 +258,8 @@
 .modal.room {
   width: 712px;
   height: 638px;
+   max-height: calc(100vh - 100px);
+  
 }
 @media screen and (max-width: 1023.98px) {
   .modal.room {
@@ -302,6 +305,8 @@
 .modal.price {
   width: 712px;
   height: 509px;
+   max-height: calc(100vh - 100px);
+
 }
 @media screen and (max-width: 1023.98px) {
   .modal.price {
