@@ -54,6 +54,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media screen and (min-width:320px) and (max-width:325px) {
+  gap: 5px;
+  }
 }
 .rest-main__text {
   transform: translateY(-18px);
@@ -63,6 +66,9 @@
   line-height: calc(15 / 12);
   letter-spacing: 0.02em;
   color: var(--last-accent-color);
+  @media screen and (min-width:320px) and (max-width:325px) {
+    width: 128px;
+    }
 }
 .rest-slider-flex {
   transform: translateX(15px);
