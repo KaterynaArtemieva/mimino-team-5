@@ -7,7 +7,7 @@
   }
 
   &--background {
-    max-width: 414px;
+    min-width: 320px;
     min-height: 735px;
     margin: 0 auto;
 
@@ -29,7 +29,6 @@
     }
 
     @media screen and (min-width: 1024px) {
-      max-width: 1024px;
       min-height: 620px;
       background-image: linear-gradient(
           rgba(0, 0, 0, 0.65),
@@ -49,7 +48,6 @@
     }
 
     @media screen and (min-width: 1280px) {
-      max-width: 1280px;
       min-height: 620px;
       background-image: linear-gradient(
           rgba(0, 0, 0, 0.65),

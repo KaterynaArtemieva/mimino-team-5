@@ -14,7 +14,7 @@
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
 
-  z-index: 20;
+  z-index: 120;
 
   transition-property: opacity;
   transition-duration: var(--timing-duration);
@@ -24,7 +24,7 @@
 .modal {
   opacity: 0;
   visibility: hidden;
-  z-index: 30;
+  z-index: 130;
 
   position: fixed;
   left: 50%;
@@ -43,6 +43,10 @@
 
   transition: transform var(--trans-dur) var(--trans-timing-func);
 }
+@media screen and (max-width: 434px) {
+.modal {
+    max-width: calc(100% - 20px);
+} }
 @media screen and (min-width: 1024px) {
   .modal {
     padding: 60px;
@@ -58,7 +62,7 @@
 .modal.table {
   width: 712px;
   height: 523px;
-   max-height: calc(100vh - 100px);
+   max-height: calc(100vh - 20px);
  
 }
 @media screen and (max-width: 1023.98px) {
@@ -258,7 +262,7 @@
 .modal.room {
   width: 712px;
   height: 638px;
-   max-height: calc(100vh - 100px);
+   max-height: calc(100vh - 20px);
   
 }
 @media screen and (max-width: 1023.98px) {
@@ -305,7 +309,7 @@
 .modal.price {
   width: 712px;
   height: 509px;
-   max-height: calc(100vh - 100px);
+   max-height: calc(100vh - 20px);
 
 }
 @media screen and (max-width: 1023.98px) {

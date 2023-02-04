@@ -23,13 +23,11 @@
 }
 
 .hero-overlay {
-  max-width: 414px;
+  min-width: 320px;
   min-height: 740px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(
-      to right,
-      var(--gradient-bkg)),
+  background-image: linear-gradient(to right, var(--gradient-bkg)),
     url(../images/mobile/main/bgc-main@1x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -40,22 +38,15 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-overlay {
-    background-image: linear-gradient(
-        to right,
-        var(--gradient-bkg)
-      ),
+    background-image: linear-gradient(to right, var(--gradient-bkg)),
       url(../images/mobile/main/bgc-main@1x.jpg);
   }
 }
 /* tablet screen */
 @media screen and (min-width: 1024px) {
   .hero-overlay {
-    max-width: 1024px;
     min-height: 720px;
-    background-image: linear-gradient(
-        to right,
-        var(--gradient-bkg)
-      ),
+    background-image: linear-gradient(to right, var(--gradient-bkg)),
       url(../images/tablet/main/bgc-main@1x.jpg);
   }
 }
@@ -64,23 +55,16 @@
   (min-width: 1024px) and (min-resolution: 192dpi),
   (min-width: 1024px) and (min-resolution: 2dppx) {
   .hero-overlay {
-    background-image: linear-gradient(
-        to right,
-        var(--gradient-bkg)
-      ),
+    background-image: linear-gradient(to right, var(--gradient-bkg)),
       url(../images/tablet/main/bgc-main@2x.jpg);
   }
 }
 /* desk screen  */
 @media screen and (min-width: 1280px) {
   .hero-overlay {
-    max-width: 1280px;
     min-height: 720px;
 
-    background-image: linear-gradient(
-        to right,
-        var(--gradient-bkg)
-      ),
+    background-image: linear-gradient(to right, var(--gradient-bkg)),
       url(../images/desktop/main/bgc-main@1x.jpg);
   }
 }
@@ -89,10 +73,7 @@
   (min-width: 1280px) and (min-resolution: 192dpi),
   (min-width: 1280px) and (min-resolution: 2dppx) {
   .hero-overlay {
-    background-image: linear-gradient(
-        to right,
-        var(--gradient-bkg)
-      ),
+    background-image: linear-gradient(to right, var(--gradient-bkg)),
       url(../images/desktop/main/bgc-main@2x.jpg);
   }
 }
