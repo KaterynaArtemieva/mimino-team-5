@@ -1,7 +1,7 @@
 // HERO-HOTEL
 
 .hero-hotel-overlay {
-  max-width: 414px;
+  min-width: 320px;
   min-height: 740px;
   margin-left: auto;
   margin-right: auto;
@@ -29,7 +29,6 @@
 /* tablet screen */
 @media screen and (min-width: 1024px) {
   .hero-hotel-overlay {
-    max-width: 1024px;
     min-height: 720px;
     background-image: linear-gradient(
         to right,
@@ -52,7 +51,6 @@
 /* desk screen  */
 @media screen and (min-width: 1280px) {
   .hero-hotel-overlay {
-    max-width: 1280px;
     min-height: 720px;
 
     background-image: linear-gradient(

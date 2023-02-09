@@ -1,4 +1,5 @@
 .footer{
+    min-width: 320px;
     background-color: var(--black-color);
     padding-top: 40px;
     padding-bottom: 40px;
@@ -15,7 +16,6 @@
     align-items: center;
 
     padding-right: 30px;
-    padding-left: 60px;
 
     @media screen and (min-width:1024px) {
         padding-right: 74px;
@@ -29,7 +29,8 @@
 
 
 .logo-footer {
-    padding: 0;
+
+padding-left: 15px;
     margin: 0;
     font-family: 'Film P3';
     font-weight: 700;
@@ -44,12 +45,13 @@
 
     @media screen and (max-width: 335px) {
         font-size: 30.9px;
-        line-height: 1.075;
     }
-
+     @media screen and (min-width: 414px) {
+        font-size: 30.9px;
+        padding-left: 30px;
+    }
     @media screen and (min-width: 1024px) {
         font-size: 64px;
-        line-height: 1.07;
     }
 
     @media screen and (min-width: 1280px) {

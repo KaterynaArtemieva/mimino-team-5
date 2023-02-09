@@ -9,7 +9,7 @@
 }
 
 .details-hotel.overlay {
-  max-width: 414px;
+    min-width: 320px;
   min-height: 735px;
   margin-left: auto;
   margin-right: auto;
@@ -35,7 +35,6 @@
 /* tablet screen */
 @media screen and (min-width: 1024px) {
   .details-hotel.overlay{
-    max-width: 1024px;
     min-height: 620px;
     background-image: linear-gradient(
         to right,
@@ -57,7 +56,6 @@
 /* desk screen  */
 @media screen and (min-width: 1280px) {
   .details-hotel.overlay{
-    max-width: 1280px;
     min-height: 620px;
 
     background-image: linear-gradient(
