@@ -32,6 +32,8 @@
   transform: translate(-50%, -50%) scale(1);
   overflow: auto;
 
+  max-height: 85%;
+
   padding: 60px 15px;
 
   background: var(--main-bkg-color);
@@ -62,7 +64,6 @@
 .modal.table {
   width: 712px;
   height: 523px;
-   max-height: calc(100vh - 20px);
  
 }
 @media screen and (max-width: 1023.98px) {
@@ -262,8 +263,8 @@
 .modal.room {
   width: 712px;
   height: 638px;
-   max-height: calc(100vh - 20px);
   
+   
 }
 @media screen and (max-width: 1023.98px) {
   .modal.room {
@@ -309,7 +310,6 @@
 .modal.price {
   width: 712px;
   height: 509px;
-   max-height: calc(100vh - 20px);
 
 }
 @media screen and (max-width: 1023.98px) {

@@ -1,4 +1,4 @@
-<section class="details-hotel overlay">
+<section class="details-hotel-section overlay">
   <div class="container">
     <!-- title text -->
     <div class="details-hotel-title-wrapper">
@@ -11,199 +11,307 @@
     </div>
     <!-- title text -->
 
-    <div class="details-bottom-side">
+    <div class="details-hotel__flexbox">
       <!-- swiper and order buttons -->
-      <div class="details-swiper-container">
-        <div class="swiper-wrapper">
-          <!-- slides -->
-          <picture class="swiper-slide">
-            <!-- desk -->
-            <source
-              media="(min-width:1280px)"
-              srcset="
-                ./images/desktop/main/gallery-1-desk.webp    1x,
-                ./images/desktop/main/gallery-1-desk@2x.webp 2x
-              "
-              type="image/webp"
-            />
-            <source
-              media="(min-width:1280px)"
-              srcset="
-                ./images/desktop/main/gallery-1-desk.jpg    1x,
-                ./images/desktop/main/gallery-1-desk@2x.jpg 2x
-              "
-              type="image/jpg"
-            />
-            <!-- tablet -->
-            <source
-              media="(min-width:1024px)"
-              srcset="
-                ./images/tablet/main/gallery-1-tablet.webp    1x,
-                ./images/tablet/main/gallery-1-tablet@2x.webp 2x
-              "
-              type="image/webp"
-            />
-            <source
-              media="(min-width:1024px)"
-              srcset="
-                ./images/tablet/main/gallery-1-tablet.jpg    1x,
-                ./images/tablet/main/gallery-1-tablet@2x.jpg 2x
-              "
-              type="image/jpg"
-            />
-            <!-- mobile -->
-            <source
-              media="(max-width:1023.98px)"
-              srcset="
-                ./images/mobile/main/gallery-1-mobile.webp    1x,
-                ./images/mobile/main/gallery-1-mobile@2x.webp 2x
-              "
-              type="image/webp"
-            />
-            <source
-              media="(max-width:1023.98px)"
-              srcset="
-                ./images/mobile/main/gallery-1-mobile.jpg    1x,
-                ./images/mobile/main/gallery-1-mobile@2x.jpg 2x
-              "
-              type="image/jpg"
-            />
-            <img
-              src="./images/mobile/main/gallery-1-mobile.jpg"
-              alt="Кімната готелю"
-            />
-          </picture>
+      <div class="swiper-container details-hotel">
+        <div class="swiper swiper-hotel-details">
+          <!-- Slider main container -->
+          <div class="swiper-wrapper list rest-details">
+            <!-- Slide 1 -->
+            <div class="swiper-slide details-restaurant__swiper-slide">
+              <picture class="swiper-slide">
+                <!-- desk -->
+                <source
+                  media="(min-width:1280px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-1-desk.webp    1x,
+                    ./images/slider-main-hotelbook/gallery-1-desk@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1280px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-1-desk.jpg    1x,
+                    ./images/slider-main-hotelbook/gallery-1-desk@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- tablet -->
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-1-tablet.webp    1x,
+                    ./images/slider-main-hotelbook/gallery-1-tablet@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-1-tablet.jpg    1x,
+                    ./images/slider-main-hotelbook/gallery-1-tablet@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- mobile -->
+                <source
+                  media="(max-width:1023.98px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-1-mobile.webp    1x,
+                    ./images/slider-main-hotelbook/gallery-1-mobile@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width:1023.98px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-1-mobile.jpg    1x,
+                    ./images/slider-main-hotelbook/gallery-1-mobile@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/slider-main-hotelbook/gallery-1-mobile.jpg"
+                  alt="Кімната готелю"
+                />
+              </picture>
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide details-restaurant__swiper-slide">
+              <picture class="swiper-slide">
+                <!-- desk and tablet -->
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-2-desk.webp    1x,
+                    ./images/slider-main-hotelbook/gallery-2-desk@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-2-desk.jpg    1x,
+                    ./images/slider-main-hotelbook/gallery-2-desk@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                
+                <!-- mobile -->
+                <source
+                  media="(max-width:1023.98px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-2-mobile.webp    1x,
+                    ./images/slider-main-hotelbook/gallery-2-mobile@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width:1023.98px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-2-mobile.jpg    1x,
+                    ./images/slider-main-hotelbook/gallery-2-mobile@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/slider-main-hotelbook/gallery-2-mobile.jpg"
+                  alt="Сніданки"
+                />
+              </picture>
+            </div>
+            <!-- Slide 3-->
+            <div class="swiper-slide details-restaurant__swiper-slide">
+              <picture class="swiper-slide none">
+                <!-- deskt -->
+                <source
+                  media="(min-width:1280px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-3-desk.webp    1x,
+                    ./images/slider-main-hotelbook/gallery-3-desk@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1280px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-3-desk.jpg    1x,
+                    ./images/slider-main-hotelbook/gallery-3-desk@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- tablet -->
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-3-tablet.webp    1x,
+                    ./images/slider-main-hotelbook/gallery-3-tablet@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-3-tablet.jpg    1x,
+                    ./images/slider-main-hotelbook/gallery-3-tablet@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- mobile -->
+                <source
+                  media="(max-width:1023.98px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-3-mobile.webp    1x,
+                    ./images/slider-main-hotelbook/gallery-3-mobile@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width:1023.98px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/gallery-3-mobile.jpg    1x,
+                    ./images/slider-main-hotelbook/gallery-3-mobile@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
 
-          <picture class="swiper-slide">
-            <!-- desk -->
-            <source
-              media="(min-width:1280px)"
-              srcset="
-                ./images/desktop/main/gallery-2-desk.webp    1x,
-                ./images/desktop/main/gallery-2-desk@2x.webp 2x
-              "
-              type="image/webp"
-            />
-            <source
-              media="(min-width:1280px)"
-              srcset="
-                ./images/desktop/main/gallery-2-desk.jpg    1x,
-                ./images/desktop/main/gallery-2-desk@2x.jpg 2x
-              "
-              type="image/jpg"
-            />
-            <!-- tablet -->
-            <source
-              media="(min-width:1024px)"
-              srcset="
-                ./images/tablet/main/gallery-2-tablet.webp    1x,
-                ./images/tablet/main/gallery-2-tablet@2x.webp 2x
-              "
-              type="image/webp"
-            />
-            <source
-              media="(min-width:1024px)"
-              srcset="
-                ./images/tablet/main/gallery-2-tablet.jpg    1x,
-                ./images/tablet/main/gallery-2-tablet@2x.jpg 2x
-              "
-              type="image/jpg"
-            />
-            <!-- mobile -->
-            <source
-              media="(max-width:1023.98px)"
-              srcset="
-                ./images/mobile/main/gallery-2-mobile.webp    1x,
-                ./images/mobile/main/gallery-2-mobile@2x.webp 2x
-              "
-              type="image/webp"
-            />
-            <source
-              media="(max-width:1023.98px)"
-              srcset="
-                ./images/mobile/main/gallery-2-mobile.png    1x,
-                ./images/mobile/main/gallery-2-mobile@2x.png 2x
-              "
-              type="image/png"
-            />
-            <img
-              src="./images/mobile/main/gallery-2-mobile.png"
-              alt="Сніданки"
-            />
-          </picture>
+                <img
+                  src="./images/slider-main-hotelbook/gallery-3-mobile.jpg"
+                  alt="Рецепція"
+                />
+              </picture>
+            </div>
+            <!-- Slide 4 -->
+            <div class="swiper-slide details-restaurant__swiper-slide ">
+              <picture class="swiper-slide">
+                <!-- deskt tablet -->
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/slide-4-desk@1x.webp    1x,
+                    ./images/slider-main-hotelbook/slide-4-desk@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1280px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/slide-4-desk@1x.jpg    1x,
+                    ./images/slider-main-hotelbook/slide-4-desk@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+          
+                <!-- mobile -->
+                <source
+                  media="(max-width:1023.98px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/slide-4-mob@1x.webp    1x,
+                    ./images/slider-main-hotelbook/slide-4-mob@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width:1023.98px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/slide-4-mob@1x.jpg    1x,
+                    ./images/slider-main-hotelbook/slide-4-mob@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
 
-          <picture class="swiper-slide none">
-            <!-- deskt -->
-            <source
-              media="(min-width:1280px)"
-              srcset="
-                ./images/desktop/main/gallery-3-desk.webp    1x,
-                ./images/desktop/main/gallery-3-desk@2x.webp 2x
-              "
-              type="image/webp"
-            />
-            <source
-              media="(min-width:1280px)"
-              srcset="
-                ./images/desktop/main/gallery-3-desk.jpg    1x,
-                ./images/desktop/main/gallery-3-desk@2x.jpg 2x
-              "
-              type="image/jpg"
-            />
-            <!-- tablet -->
-            <source
-              media="(min-width:1024px)"
-              srcset="
-                ./images/tablet/main/gallery-3-tablet.webp    1x,
-                ./images/tablet/main/gallery-3-tablet@2x.webp 2x
-              "
-              type="image/webp"
-            />
-            <source
-              media="(min-width:1024px)"
-              srcset="
-                ./images/tablet/main/gallery-3-tablet.jpg    1x,
-                ./images/tablet/main/gallery-3-tablet@2x.jpg 2x
-              "
-              type="image/jpg"
-            />
+                <img
+                  src="./images/slider-main-hotelbook/slide-4-mob@1x.jpg"
+                  alt="Лоббі готелю"
+                />
+              </picture>
+            </div>
+            <!-- Slide 5 -->
+            <div class="swiper-slide details-restaurant__swiper-slide ">
+              <picture class="swiper-slide">
+                <!-- deskt tablet -->
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/slide-5-desk@1x.webp    1x,
+                    ./images/slider-main-hotelbook/slide-5-desk@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1280px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/slide-5-desk@1x.jpg    1x,
+                    ./images/slider-main-hotelbook/slide-5-desk@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+          
+                <!-- mobile -->
+                <source
+                  media="(max-width:1023.98px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/slide-5-mob@1x.webp 1x,
+                    ./images/slider-main-hotelbook/slide-5-mob@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width:1023.98px)"
+                  srcset="
+                    ./images/slider-main-hotelbook/slide-5-mob@1x.jpg 1x,
+                    ./images/slider-main-hotelbook/slide-5-mob@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
 
-            <img
-              src="./images/tablet/main/gallery-3-tablet.jpg"
-              alt="Рецепція"
-            />
-          </picture>
+                <img
+                  src="./images/slider-main-hotelbook/slide-5-mob@1x.jpg"
+                  alt="Кімната з диваном"
+                />
+              </picture>
+            </div>
+           
+          </div>
+
+          <ul class="arrow-list toright list">
+             <li class="icon-arrow-right">
+              <button class="light arrow-button-next" type="button">
+                <svg class="slider-icon-light" width="32" height="32">
+                  <use href="./images/icons.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="icon-arrow-left">
+              <button class="light arrow-button-prev" type="button">
+                <svg class="slider-icon-light" width="32" height="32">
+                  <use href="./images/icons.svg#icon-arrow-left"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
         </div>
-
-        <!-- switch buttons -->
-        <ul class="arrow-list toright list">
-          <li class="icon-arrow-left">
-            <a class="light" href="#">
-              <svg class="slider-icon-light" width="32" height="32">
-                <use href="./images/icons.svg#icon-arrow-left"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="icon-arrow-right">
-            <a class="light" href="#">
-              <svg class="slider-icon-light" width="32" height="32">
-                <use href="./images/icons.svg#icon-arrow-right"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
       </div>
 
       <!-- order buttons -->
 
       <ul class="details-button-list list">
         <li class="details-hotel-button-item">
-          <button class="details-button js-open-modal" data-modal="2" type="button">
+          <button
+            class="details-button js-open-modal"
+            data-modal="2"
+            type="button"
+          >
             <span>Забронювати номеp </span>
           </button>
         </li>
         <li class="details-hotel-button-item">
-          <button class="details-button js-open-modal" data-modal="3" type="button">
+          <button
+            class="details-button js-open-modal"
+            data-modal="3"
+            type="button"
+          >
             <span>Переглянути ціни</span>
           </button>
         </li>

@@ -10,208 +10,322 @@
     </div>
 
     <div class="details-restaurant__flexbox">
-      <div class="details-restaurant__swiper">
-        <!-- Slider main container -->
-        <ul class="swiper-wrapper list rest-details">
-          <!-- Slides -->
-          <li class="swiper-slide details-restaurant__swiper-slide">
-            <picture>
-              <!-- desktop -->
-              <source
-                media="(min-width:1280px)"
-                srcset="
-                  ./images/desktop/main/meat-desk.webp    1x,
-                  ./images/desktop/main/meat-desk@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(min-width:1280px)"
-                srcset="
-                  ./images/desktop/main/meat-desk.jpg    1x,
-                  ./images/desktop/main/meat-desk@2x.jpg 2x
-                "
-                type="image/jpg"
-              />
-              <!-- tablet -->
-              <source
-                media="(min-width:1024px)"
-                srcset="
-                  ./images/tablet/main/meat-tablet.webp    1x,
-                  ./images/tablet/main/meat-tablet@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(min-width:1024px)"
-                srcset="
-                  ./images/tablet/main/meat-tablet.jpg    1x,
-                  ./images/tablet/main/meat-tablet@2x.jpg 2x
-                "
-                type="image/jpg"
-              />
-              <!-- mobile -->
-              <source
-                media="(max-width:1023.98px)"
-                srcset="
-                  ./images/mobile/main/meat-mobile.webp    1x,
-                  ./images/mobile/main/meat-mobile@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(max-width:1023.98px)"
-                srcset="
-                  ./images/mobile/main/meat-mobile.jpg    1x,
-                  ./images/mobile/main/meat-mobile@2x.jpg 2x
-                "
-                type="image/jpg"
-              />
-              <img
-                class="details-restaurant__swiper-img"
-                src="./images/mobile/main/meat-mobile.jpg"
-                alt="стейк"
-              />
-            </picture>
-          </li>
-          <!-- Slides -->
-          <li class="swiper-slide details-restaurant__swiper-slide">
-            <picture>
-              <!-- desktop -->
-              <source
-                media="(min-width:1280px)"
-                srcset="
-                  ./images/desktop/main/pizza-desk.webp    1x,
-                  ./images/desktop/main/pizza-desk@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(min-width:1280px)"
-                srcset="
-                  ./images/desktop/main/pizza-desk.jpg    1x,
-                  ./images/desktop/main/pizza-desk@2x.jpg 2x
-                "
-                type="image/jpg"
-              />
-              <!-- tablet -->
-              <source
-                media="(min-width:1024px)"
-                srcset="
-                  ./images/tablet/main/pizza-tablet.webp    1x,
-                  ./images/tablet/main/pizza-tablet@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(min-width:1024px)"
-                srcset="
-                  ./images/tablet/main/pizza-tablet.jpg    1x,
-                  ./images/tablet/main/pizza-tablet@2x.jpg 2x
-                "
-                type="image/jpg"
-              />
-              <!-- mobile -->
-              <source
-                media="(max-width:1023.98px)"
-                srcset="
-                  ./images/mobile/main/pizza-mobile.webp    1x,
-                  ./images/mobile/main/pizza-mobile@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(max-width:1023.98px)"
-                srcset="
-                  ./images/mobile/main/pizza-mobile.png    1x,
-                  ./images/mobile/main/pizza-mobile@2x.png 2x
-                "
-                type="image/png"
-              />
-              <img
-                class="details-restaurant__swiper-img"
-                src="./images/mobile/main/pizza-mobile.png"
-                alt="піца"
-              />
-            </picture>
-          </li>
-          <!-- Slides -->
-          <li class="swiper-slide details-restaurant__swiper-slide none">
-            <picture>
-              <!-- desktop -->
-              <source
-                media="(min-width:1280px)"
-                srcset="
-                  ./images/desktop/main/salad-desk.webp    1x,
-                  ./images/desktop/main/salad-desk@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(min-width:1280px)"
-                srcset="
-                  ./images/desktop/main/salad-desk.jpg    1x,
-                  ./images/desktop/main/salad-desk@2x.jpg 2x
-                "
-                type="image/jpg"
-              />
-              <!-- tablet -->
-              <source
-                media="(min-width:1024px)"
-                srcset="
-                  ./images/tablet/main/salad-tablet.webp    1x,
-                  ./images/tablet/main/salad-tablet@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(min-width:1024px)"
-                srcset="
-                  ./images/tablet/main/salad-tablet.jpg    1x,
-                  ./images/tablet/main/salad-tablet@2x.jpg 2x
-                "
-                type="image/jpg"
-              />
-              
-              <img
-                class="details-restaurant__swiper-img"
-                src="./images/tablet/main/salad-tablet.jpg"
-                alt="салат"
-              />
-            </picture>
-          </li>
-        </ul>
+      <div class="swiper-container details-rest">
+        <div class="swiper swiper-rest-details ">
+          <!-- Slider main container -->
+          <div class="swiper-wrapper list rest-details">
+            <!-- Slides -->
+            <div class="swiper-slide details-restaurant__swiper-slide">
+              <picture>
+                <!-- desktop -->
+                <source
+                  media="(min-width:1280px)"
+                  srcset="
+                    ./images/slider-main-restbook/meat-desk.webp    1x,
+                    ./images/slider-main-restbook/meat-desk@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1280px)"
+                  srcset="
+                    ./images/slider-main-restbook/meat-desk.jpg    1x,
+                    ./images/slider-main-restbook/meat-desk@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- tablet -->
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-restbook/meat-tablet.webp    1x,
+                    ./images/slider-main-restbook/meat-tablet@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-restbook/meat-tablet.jpg    1x,
+                    ./images/slider-main-restbook/meat-tablet@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- mobile -->
+                <source
+                  media="(max-width:1023.98px)"
+                  srcset="
+                    ./images/slider-main-restbook/meat-mobile.webp    1x,
+                    ./images/slider-main-restbook/meat-mobile@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width:1023.98px)"
+                  srcset="
+                    ./images/slider-main-restbook/meat-mobile.jpg    1x,
+                    ./images/slider-main-restbook/meat-mobile@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="details-restaurant__swiper-img"
+                  src="./images/slider-main-restbook/meat-mobile.jpg"
+                  alt="стейк"
+                />
+              </picture>
+            </div>
+            <!-- Slides -->
+            <div class="swiper-slide details-restaurant__swiper-slide">
+              <picture>
+                <!-- desktop -->
+                <source
+                  media="(min-width:1280px)"
+                  srcset="
+                    ./images/slider-main-restbook/pizza-desk.webp    1x,
+                    ./images/slider-main-restbook/pizza-desk@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1280px)"
+                  srcset="
+                    ./images/slider-main-restbook/pizza-desk.jpg    1x,
+                    ./images/slider-main-restbook/pizza-desk@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- tablet -->
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-restbook/pizza-tablet.webp    1x,
+                    ./images/slider-main-restbook/pizza-tablet@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-restbook/pizza-tablet.jpg    1x,
+                    ./images/slider-main-restbook/pizza-tablet@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- mobile -->
+                <source
+                  media="(max-width:1023.98px)"
+                  srcset="
+                    ./images/slider-main-restbook/pizza-mobile.webp    1x,
+                    ./images/slider-main-restbook/pizza-mobile@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width:1023.98px)"
+                  srcset="
+                    ./images/slider-main-restbook/pizza-mobile.jpg    1x,
+                    ./images/slider-main-restbook/pizza-mobile@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="details-restaurant__swiper-img"
+                  src="./images/slider-main-restbook/pizza-mobile.jpg"
+                  alt="піца"
+                />
+              </picture>
+            </div>
+            <!-- Slides -->
+            <div class="swiper-slide details-restaurant__swiper-slide none">
+              <picture>
+                <!-- desktop -->
+                <source
+                  media="(min-width:1280px)"
+                  srcset="
+                    ./images/slider-main-restbook/salad-desk.webp    1x,
+                    ./images/slider-main-restbook/salad-desk@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1280px)"
+                  srcset="
+                    ./images/slider-main-restbook/salad-desk.jpg    1x,
+                    ./images/slider-main-restbook/salad-desk@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- tablet -->
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-restbook/salad-tablet.webp    1x,
+                    ./images/slider-main-restbook/salad-tablet@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-restbook/salad-tablet.jpg    1x,
+                    ./images/slider-main-restbook/salad-tablet@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
 
-        <ul class="arrow-list rest-details list">
-          <li class="icon-arrow-left">
-            <a class="light" href="#">
-              <svg class="slider-icon-light" width="32" height="32">
-                <use href="./images/icons.svg#icon-arrow-left"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="icon-arrow-right">
-            <a class="light" href="#">
-              <svg class="slider-icon-light" width="32" height="32">
-                <use href="./images/icons.svg#icon-arrow-right"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+                <!-- mobile -->
+
+                <source
+                  media="(min-width:414px)"
+                  srcset="
+                    ./images/slider-main-restbook/salad-mobile.webp    1x,
+                    ./images/slider-main-restbook/salad-mobile@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:414px)"
+                  srcset="
+                    ./images/slider-main-restbook/salad-mobile.jpg    1x,
+                    ./images/slider-main-restbook/salad-mobile@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <img
+                  class="details-restaurant__swiper-img"
+                  src="./images/slider-main-restbook/salad-mobile.jpg"
+                  alt="салат"
+                />
+              </picture>
+            </div>
+            <!-- Slides -->
+            <div class="swiper-slide details-restaurant__swiper-slide none">
+              <picture>
+                <!-- desktop-tablet -->
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-restbook/slide-5-desk@1x.webp 1x,
+                    ./images/slider-main-restbook/slide-5-desk@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-restbook/slide-5-desk@1x.jpg 1x,
+                    ./images/slider-main-restbook/slide-5-desk@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- mobile -->
+
+                <source
+                  media="(min-width:414px)"
+                  srcset="
+                    ./images/slider-main-restbook/slide-5-mobile@1x.webp 1x,
+                    ./images/slider-main-restbook/slide-5-mobile@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:414px)"
+                  srcset="
+                    ./images/slider-main-restbook/slide-5-mobile@1x.jpg 1x,
+                    ./images/slider-main-restbook/slide-5-mobile@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <img
+                  class="details-restaurant__swiper-img"
+                  src="./images/slider-main-restbook/slide-5-mobile@1x.jpg"
+                  alt="стіл"
+                />
+              </picture>
+            </div>
+            <!-- Slides -->
+            <div class="swiper-slide details-restaurant__swiper-slide none">
+              <picture>
+                <!-- desktop-tablet -->
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-restbook/slide-4-desk@1x.webp 1x,
+                    ./images/slider-main-restbook/slide-4-desk@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1024px)"
+                  srcset="
+                    ./images/slider-main-restbook/slide-4-desk@1x.jpg 1x,
+                    ./images/slider-main-restbook/slide-4-desk@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- mobile -->
+
+                <source
+                  media="(min-width:414px)"
+                  srcset="
+                    ./images/slider-main-restbook/slide-4-mobile@1x.webp 1x,
+                    ./images/slider-main-restbook/slide-4-mobile@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:414px)"
+                  srcset="
+                    ./images/slider-main-restbook/slide-4-mobile@1x.jpg 1x,
+                    ./images/slider-main-restbook/slide-4-mobile@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <img
+                  class="details-restaurant__swiper-img"
+                  src="./images/slider-main-restbook/slide-4-mobile@1x.jpg"
+                  alt="стіл з бокалами та устирицями"
+                />
+              </picture>
+            </div>
+          </div>
+
+          <ul class="arrow-list rest-details list">
+            <li class="icon-arrow-left">
+              <button class="light arrow-button-prev" type="button">
+                <svg class="slider-icon-light" width="32" height="32">
+                  <use href="./images/icons.svg#icon-arrow-left"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="icon-arrow-right">
+              <button class="light arrow-button-next" type="button">
+                <svg class="slider-icon-light" width="32" height="32">
+                  <use href="./images/icons.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <!-- order buttons -->
       <ul class="details-button-list rest-details list">
         <li>
-          <button type="button" class="details-button js-open-modal" data-modal="1">
+          <button
+            type="button"
+            class="details-button js-open-modal"
+            data-modal="1"
+          >
             <span>Забронювати столик</span>
           </button>
         </li>
         <li>
-          <a
-            class="details-button link"
-            href="./restaurant.html#menu"
-          >
+          <a class="details-button link" href="./restaurant.html#menu">
             <span>Переглянути меню</span>
           </a>
         </li>
